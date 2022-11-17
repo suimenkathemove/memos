@@ -5,6 +5,11 @@
   "files.trimTrailingWhitespace": true,
   "scss.validate": false,
   "typescript.tsdk": "./node_modules/typescript/lib",
+  "[markdown]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
+    }
+  },
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true,
