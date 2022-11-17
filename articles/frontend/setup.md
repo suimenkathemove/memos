@@ -5,3 +5,4 @@
 ## TODO
 
 - [ ] Vite + React
+- [ ] .vscode
