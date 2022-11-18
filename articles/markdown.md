@@ -2,9 +2,9 @@
 
 ## lint, format
 
-markdownlint
+### markdownlint
 
-### [VSCode extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+#### [VSCode extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 `.vscode/settings.json`
 
@@ -18,7 +18,7 @@ markdownlint
 }
 ```
 
-### [npm library](https://www.npmjs.com/package/markdownlint)
+#### [npm library](https://www.npmjs.com/package/markdownlint)
 
 ### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
