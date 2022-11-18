@@ -7,6 +7,7 @@
 | option | description  |
 | ------ | ------------ |
 | -s     | session name |
+| -d     | detach       |
 
 ## Windows
 
