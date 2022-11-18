@@ -1,5 +1,11 @@
 # linux commands
 
+## mkdir
+
+| option        | description                        |
+| ------------- | ---------------------------------- |
+| -p, --parents | 親ディレクトリが無ければそれも作成 |
+
 ## link
 
 ### create
