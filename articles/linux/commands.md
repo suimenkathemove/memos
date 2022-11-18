@@ -17,3 +17,11 @@ ln [OPTIONS] TARGET LINK_NAME
 | -n, --no-dereference | LINK_NAMEがディレクトリへのシンボリックリンクの場合、通常のファイルとして扱う |
 |                      | ディレクトリへのシンボリックリンクを上書きしたい場合に-fと組み合わせて使う    |
 | -v, --verbose        | verbose                                                                       |
+
+## alias
+
+### create
+
+```shell
+alias NAME=VALUE
+```
