@@ -20,6 +20,12 @@ ln [OPTIONS] TARGET LINK_NAME
 
 ## alias
 
+### list
+
+```shell
+alias
+```
+
 ### create
 
 ```shell
