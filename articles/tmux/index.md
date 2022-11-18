@@ -1,1 +1,7 @@
 # tmux
+
+## Sessions
+
+## Windows
+
+## Panes
