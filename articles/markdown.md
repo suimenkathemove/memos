@@ -22,6 +22,9 @@
 
 ### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
+- tableのformat
+- linkのautocomplete
+
 `.vscode/settings.json`
 
 ```json
