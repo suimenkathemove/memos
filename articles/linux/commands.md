@@ -25,3 +25,5 @@ ln [OPTIONS] TARGET LINK_NAME
 ```shell
 alias NAME=VALUE
 ```
+
+有効なのはログアウトするまでだから.zshrcに書く
