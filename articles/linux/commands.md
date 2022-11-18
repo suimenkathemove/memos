@@ -27,3 +27,5 @@ alias NAME=VALUE
 ```
 
 有効なのはログアウトするまでだから.zshrcに書く
+
+## [create my commands](https://github.com/emgniddikur/dotfiles/blob/main/.commands/README.md)
