@@ -35,6 +35,10 @@
 }
 ```
 
+## preview
+
+[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+
 ## mind map
 
 [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)
