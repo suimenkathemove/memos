@@ -40,4 +40,12 @@ alias NAME=VALUE
 
 有効なのはログアウトするまでだから.zshrcに書く
 
+## print current dir
+
+```shell
+basename $(pwd)
+```
+
+`CURRENT_DIR="$(basename "$(pwd)")"`
+
 ## [create my commands](https://github.com/emgniddikur/dotfiles/blob/main/.commands/README.md)
