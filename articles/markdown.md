@@ -19,3 +19,15 @@ markdownlint
 ```
 
 ### [npm library](https://www.npmjs.com/package/markdownlint)
+
+### [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+`.vscode/settings.json`
+
+```json
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
+}
+```
