@@ -1,5 +1,7 @@
 # Git Submodules
 
+リポジトリ内に他のリポジトリの参照を置くことができる
+
 ## add
 
 ```shell
