@@ -6,6 +6,8 @@
 
 [source](https://github.com/emgniddikur/dotfiles/blob/main/.commands/open-slack-clone.sh)
 
+[コマンドとして設定する](https://github.com/below-water/dotfiles/tree/main/.commands)
+
 ### Setup default shell
 
 `dev.sh`
