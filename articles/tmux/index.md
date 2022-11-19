@@ -3,9 +3,11 @@
 [manual page](https://man7.org/linux/man-pages/man1/tmux.1.html)
 
 global options
-| option | description |
-| ------ | ----------- |
-| -t     | target      |
+| option    | description       |
+| --------- | ----------------- |
+| -t        | target            |
+| -c        | working directory |
+| 'COMMAND' | command           |
 
 ## Sessions
 
@@ -40,5 +42,23 @@ tmux has-session
 ```
 
 ## Windows
+
+### new
+
+```shell
+tmux new-window
+```
+
+| option  | description |
+| ------- | ----------- |
+| -n NAME | window name |
+
+### select
+
+-t
+
+```shell
+tmux select-window
+```
 
 ## Panes
