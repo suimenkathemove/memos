@@ -4,6 +4,7 @@
 
 ### [Open project with VSCode](../articles/vscode/cli.md#open)
 
+[base dev.sh](../../articles/base-dev.sh)
 [source](https://github.com/emgniddikur/dotfiles/blob/main/.commands/open-slack-clone.sh)
 
 [コマンドとして設定する](https://github.com/below-water/dotfiles/tree/main/.commands)
