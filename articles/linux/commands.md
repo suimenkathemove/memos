@@ -40,6 +40,12 @@ alias NAME=VALUE
 
 有効なのはログアウトするまでだから.zshrcに書く
 
+### Use alias in shell script
+
+```shell
+shopt -s expand_aliases
+```
+
 ## print current dir
 
 ```shell
