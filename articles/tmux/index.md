@@ -6,10 +6,15 @@
 
 ### new
 
-| option | description  |
-| ------ | ------------ |
-| -s     | session name |
-| -d     | detach       |
+```shell
+tmux new-session
+```
+
+| option  | description  |
+| ------- | ------------ |
+| -s NAME | session name |
+| -d      | detach       |
+| -n NAME | window name  |
 
 [tmux-start.sh](https://github.com/emgniddikur/dotfiles/blob/main/.commands/tmux-start.sh)
 
