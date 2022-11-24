@@ -62,3 +62,7 @@ tmux select-window
 ```
 
 ## Panes
+
+## Troubleshooting
+
+[バックスペースがスペースになるバグの対応](https://github.com/tmux/tmux/issues/597)
