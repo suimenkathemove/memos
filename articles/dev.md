@@ -5,7 +5,7 @@
 ### [Open project with VSCode](../articles/vscode/cli.md#open)
 
 [base dev.sh](../../articles/base-dev.sh)
-[source](https://github.com/emgniddikur/dotfiles/blob/main/.commands/open-slack-clone.sh)
+[source](https://github.com/suimenkathemove/dotfiles/blob/main/.commands/open-slack-clone.sh)
 
 [コマンドとして設定する](https://github.com/below-water/dotfiles/tree/main/.commands)
 
@@ -13,7 +13,7 @@
 
 `dev.sh`
 
-[source](https://github.com/emgniddikur/slack-clone/blob/main/dev.sh)
+[source](https://github.com/suimenkathemove/slack-clone/blob/main/dev.sh)
 
 `.vscode/settings.json`
 

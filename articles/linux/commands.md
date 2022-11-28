@@ -65,4 +65,4 @@ basename $(pwd)
 
 `CURRENT_DIR="$(basename "$(pwd)")"`
 
-## [create my commands](https://github.com/emgniddikur/dotfiles/blob/main/.commands/README.md)
+## [create my commands](https://github.com/suimenkathemove/dotfiles/blob/main/.commands/README.md)

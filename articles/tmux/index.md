@@ -23,7 +23,7 @@ tmux new-session
 | -d      | detach       |
 | -n NAME | window name  |
 
-[tmux-start.sh](https://github.com/emgniddikur/dotfiles/blob/main/.commands/tmux-start.sh)
+[tmux-start.sh](https://github.com/suimenkathemove/dotfiles/blob/main/.commands/tmux-start.sh)
 
 ### attach
 

@@ -1,3 +1,3 @@
 # Setup
 
-https://github.com/emgniddikur/rust_template
+https://github.com/suimenkathemove/rust_template

@@ -3,7 +3,7 @@
 # TODO
 PROJECT_NAME="TODO"
 
-DEV_DIR="${HOME}/development/emgniddikur"
+DEV_DIR="${HOME}/development/suimenkathemove"
 
 cd "$DEV_DIR/$PROJECT_NAME" || exit
 

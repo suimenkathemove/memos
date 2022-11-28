@@ -4,13 +4,13 @@
 
 ### source
 
-- https://github.com/emgniddikur/frontend-modules
-- https://github.com/emgniddikur/react-template
+- https://github.com/suimenkathemove/frontend-modules
+- https://github.com/suimenkathemove/react-template
 
 ### target
 
-- https://github.com/emgniddikur/react-sandbox
-- https://github.com/emgniddikur/slack-clone
+- https://github.com/suimenkathemove/react-sandbox
+- https://github.com/suimenkathemove/slack-clone
 
 ## TODO
 
