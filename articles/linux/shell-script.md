@@ -21,3 +21,18 @@ function_name() {
   # 処理
 }
 ```
+
+## if
+
+### Options
+
+```shell
+if [ [options] [file|dir] ]; then
+  # code
+fi
+```
+
+| option | description              |
+| ------ | ------------------------ |
+| -f     | ファイルが存在するか     |
+| -d     | ディレクトリが存在するか |
