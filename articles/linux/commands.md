@@ -1,5 +1,16 @@
 # linux commands
 
+## placeholder
+
+<!-- markdownlint-disable-next-line MD038 -->
+- `` `` ``
+- `$()`
+
+```shell
+echo `echo foo`
+# foo
+```
+
 ## mkdir
 
 | option        | description                        |
