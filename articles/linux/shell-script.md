@@ -5,6 +5,12 @@
 - [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
 - [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
 
+## Variables
+
+| what  | description    |
+| ----- | -------------- |
+| $HOME | home directory |
+
 ## arguments
 
 | what      | description                                  |
