@@ -5,4 +5,6 @@
 
 ## toolchain
 
-a single installation of the Rust compiler.
+A single installation of the Rust compiler.
+
+Manage with rustup.
