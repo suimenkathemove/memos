@@ -3,6 +3,7 @@
 - [Rust](#rust)
   - [version確認](#version確認)
   - [update version](#update-version)
+  - [uninstall](#uninstall)
 
 ## version確認
 
@@ -14,4 +15,10 @@ rustc --version
 
 ```shell
 rustup update
+```
+
+## uninstall
+
+```shell
+rustup self uninstall
 ```
