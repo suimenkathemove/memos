@@ -1,8 +1,13 @@
 # nextest
 
 - [nextest](#nextest)
+  - [Install](#install)
   - [command](#command)
     - [options](#options)
+
+## Install
+
+<https://nexte.st/book/installing-from-source.html>
 
 ## command
 
