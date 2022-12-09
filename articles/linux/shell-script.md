@@ -28,7 +28,7 @@ function_name() {
 }
 ```
 
-## if
+## if statement
 
 ### Options
 
