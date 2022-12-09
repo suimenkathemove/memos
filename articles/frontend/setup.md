@@ -58,3 +58,4 @@
   - [ ]  mocking
     - [ ]  MSW
 - [ ]  CI
+- [ ]  deploy
