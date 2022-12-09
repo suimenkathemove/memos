@@ -42,3 +42,19 @@ fi
 | ------ | ------------------------ |
 | -f     | ファイルが存在するか     |
 | -d     | ディレクトリが存在するか |
+
+## for loop
+
+```shell
+for el in arr; do
+  # code
+done
+```
+
+### example
+
+```shell
+for ARG in "$@"; do
+  echo "$ARG"
+done
+```
