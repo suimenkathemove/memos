@@ -58,3 +58,7 @@ for ARG in "$@"; do
   echo "$ARG"
 done
 ```
+
+### 参考
+
+- <https://github.com/suimenkathemove/dotfiles/blob/main/.bin/link.sh>
