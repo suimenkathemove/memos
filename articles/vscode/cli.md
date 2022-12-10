@@ -7,3 +7,7 @@
 ```shell
 code -g PROJECT_PATH
 ```
+
+## Extensions
+
+- `--list-extensions`
