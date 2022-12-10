@@ -2,7 +2,10 @@
 
 - [Network](#network)
   - [VPC, Subnets](#vpc-subnets)
+    - [VPC](#vpc)
 
 ## VPC, Subnets
 
-Subnets⋯分割したネットワーク
+### VPC
+
+仮想ネットワーク
