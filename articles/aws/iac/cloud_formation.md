@@ -5,6 +5,8 @@
   - [YAML](#yaml)
   - [VSCode](#vscode)
     - [extensions](#extensions)
+      - [CloudFormation Linter](#cloudformation-linter)
+        - [Install cfn-lint](#install-cfn-lint)
 
 ## Flow
 
@@ -15,3 +17,13 @@
 ## VSCode
 
 ### extensions
+
+#### CloudFormation Linter
+
+<https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint>
+
+<https://github.com/aws-cloudformation/cfn-lint>
+
+##### Install cfn-lint
+
+<https://github.com/aws-cloudformation/cfn-lint#install>
