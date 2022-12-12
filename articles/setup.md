@@ -1,8 +1,11 @@
 # Setup
 
 - [Setup](#setup)
-  - [VSCode](#vscode)
+  - [List](#list)
 
-## VSCode
+## List
 
-- cspell
+- [ ] .vscode
+  - [ ] settings.json
+  - [ ] cspell.json
+- [ ] dev.sh
