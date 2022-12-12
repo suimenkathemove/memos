@@ -12,6 +12,7 @@
 
 `dev.sh`
 
+[dev.sh](../../articles/dev.sh)
 [source](https://github.com/suimenkathemove/slack-clone/blob/main/dev.sh)
 
 `.vscode/settings.json`
