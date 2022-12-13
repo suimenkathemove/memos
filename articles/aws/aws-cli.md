@@ -5,6 +5,6 @@
 
 ## Docker
 
-<https://github.com/suimenkathemove/docker_examples/tree/main/aws-cli>
-
-<https://github.com/suimenkathemove/docker_examples/tree/main/aws-cli-example>
+- <https://github.com/suimenkathemove/docker_examples/tree/main/aws-cli>
+- <https://github.com/suimenkathemove/docker_examples/tree/main/aws-cli-example>
+- <https://github.com/suimenkathemove/slack-clone/tree/main/infrastructure/cloud_formation>
