@@ -9,6 +9,7 @@
     - [module](#module)
       - [for Node.js](#for-nodejs)
       - [for frontend](#for-frontend)
+    - [moduleResolution](#moduleresolution)
 
 ## References
 
@@ -41,3 +42,7 @@ Specify module system.
 #### for frontend
 
 `ESNext`
+
+### moduleResolution
+
+`resolveJsonModule` cannot be specified without 'node' moduleResolution.
