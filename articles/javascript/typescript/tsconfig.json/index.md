@@ -5,6 +5,7 @@
   - [Init](#init)
   - [Options](#options)
     - [target](#target)
+    - [lib](#lib)
 
 ## References
 
@@ -21,3 +22,7 @@ tsc --init
 ### target
 
 どのバージョンのJavaScriptに出力するかを設定する
+
+### lib
+
+実行環境で使用できるライブラリの宣言ファイルを指定する
