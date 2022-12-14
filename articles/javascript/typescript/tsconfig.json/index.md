@@ -3,6 +3,8 @@
 - [tsconfig.json](#tsconfigjson)
   - [References](#references)
   - [Init](#init)
+  - [Options](#options)
+    - [target](#target)
 
 ## References
 
@@ -13,3 +15,9 @@
 ```shell
 tsc --init
 ```
+
+## Options
+
+### target
+
+どのバージョンのJavaScriptに出力するかを設定する
