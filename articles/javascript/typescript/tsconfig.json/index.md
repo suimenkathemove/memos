@@ -7,6 +7,8 @@
     - [target](#target)
     - [lib](#lib)
     - [module](#module)
+      - [for Node.js](#for-nodejs)
+      - [for frontend](#for-frontend)
 
 ## References
 
@@ -31,3 +33,11 @@ tsc --init
 ### module
 
 Specify module system.
+
+#### for Node.js
+
+`CommonJS`
+
+#### for frontend
+
+`ESNext`
