@@ -6,6 +6,7 @@
   - [Options](#options)
     - [target](#target)
     - [lib](#lib)
+    - [module](#module)
 
 ## References
 
@@ -26,3 +27,7 @@ tsc --init
 ### lib
 
 実行環境で使用できるライブラリの宣言ファイルを指定する
+
+### module
+
+Specify module system.
