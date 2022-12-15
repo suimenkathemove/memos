@@ -11,6 +11,7 @@
       - [for frontend](#for-frontend)
     - [moduleResolution](#moduleresolution)
   - [Use absolute path](#use-absolute-path)
+    - [When using `ts-node`](#when-using-ts-node)
 
 ## References
 
@@ -59,6 +60,28 @@ Specify module system.
     "paths": {
       "@/*": ["*"]
     }
+  }
+}
+```
+
+### When using `ts-node`
+
+```shell
+yarn add tsconfig-paths -D
+```
+
+`tsconfig.json`
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
   }
 }
 ```
