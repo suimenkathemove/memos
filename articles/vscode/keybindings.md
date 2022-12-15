@@ -1,8 +1,10 @@
 # keybindings
 
-| command               | keybinding |
-| --------------------- | ---------- |
-| View: Toggle Problems | ⇧⌘M        |
+| command                           | keybinding |
+| --------------------------------- | ---------- |
+| View: Toggle Problems             | ⇧⌘M        |
+| View: Focus into Primary Side Bar | ⌘0         |
+| View: Focus First Editor Group    | ⌘1         |
 
 ## Search
 
