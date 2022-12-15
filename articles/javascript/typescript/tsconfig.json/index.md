@@ -10,6 +10,7 @@
       - [for Node.js](#for-nodejs)
       - [for frontend](#for-frontend)
     - [moduleResolution](#moduleresolution)
+  - [Use absolute path](#use-absolute-path)
 
 ## References
 
@@ -46,3 +47,18 @@ Specify module system.
 ### moduleResolution
 
 `resolveJsonModule` cannot be specified without 'node' moduleResolution.
+
+## Use absolute path
+
+`tsconfig.json`
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  }
+}
+```
