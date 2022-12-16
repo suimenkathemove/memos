@@ -5,5 +5,5 @@
 
 ## Components
 
-- model
+- [value object](./value-object.md)
 - repository
