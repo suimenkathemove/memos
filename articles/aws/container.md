@@ -15,3 +15,5 @@
    2. Internet Gateway
    3. routing tables
    4. security groups
+2. Application
+   - separate containers for each services.
