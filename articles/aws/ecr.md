@@ -5,4 +5,4 @@
 
 ## Overview
 
-暗号化設定は後で変更できない
+The encryption settings cannot be changed or disabled after the repository is created.
