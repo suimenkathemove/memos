@@ -12,6 +12,6 @@ cargo test [options] [testname] [-- test-options]
 
 ### test-options
 
-| option      | description |
-| ----------- | ----------- |
-| --nocapture | output      |
+| option      | description      |
+| ----------- | ---------------- |
+| --nocapture | output to stdout |
