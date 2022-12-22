@@ -55,6 +55,7 @@
   - [ ]  VRT
   - [ ]  E2E
     - [ ]  Cypress
+    - [ ]  Autify
   - [ ]  mocking
     - [ ]  MSW
 - [ ]  CI
