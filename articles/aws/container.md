@@ -2,6 +2,7 @@
 
 - [Container](#container)
   - [Flow](#flow)
+    - [Network](#network)
 
 ## Flow
 
@@ -17,3 +18,16 @@
    4. security groups
 2. Application
    - separate containers for each services.
+
+### Network
+
+- コンテナ
+  - プライベートサブネット
+    - a, c
+  - ルートテーブル
+  - サブネットへルート紐付け
+- DB
+  - プライベートサブネット
+    - a, c
+  - ルートテーブル
+  - サブネットへルート紐付け
