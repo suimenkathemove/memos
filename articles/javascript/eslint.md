@@ -11,7 +11,9 @@
 ESLint本体以外のエコシステムのパッケージは主に3つ
 
 - Parser
+  - `@typescript-eslint/parser`
 - Plugin
+  - `@typescript-eslint/eslint-plugin`
 - Shareable Config
 
 ## Configuring
