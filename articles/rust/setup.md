@@ -1,6 +1,7 @@
 # Setup
 
-<https://github.com/suimenkathemove/rust_template/blob/main/README.md>
+- [Setup](#setup)
+  - [List](#list)
 
 ## List
 
