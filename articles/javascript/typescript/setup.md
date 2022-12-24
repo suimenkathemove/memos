@@ -1,3 +1,3 @@
 # Setup
 
-<https://github.com/suimenkathemove/typescript-template>
+<https://github.com/suimenkathemove/typescript-sandbox>
