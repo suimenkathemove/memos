@@ -1,3 +1,0 @@
-# Prettier
-
-- [Prettier](#prettier)
