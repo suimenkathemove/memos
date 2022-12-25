@@ -2,11 +2,21 @@
 
 - [postgres](#postgres)
   - [psql](#psql)
-    - [Switch DB](#switch-db)
+    - [DB](#db)
+      - [List](#list)
+      - [Switch](#switch)
 
 ## psql
 
-### Switch DB
+### DB
+
+#### List
+
+```shell
+\l
+```
+
+#### Switch
 
 ```shell
 \c DB
