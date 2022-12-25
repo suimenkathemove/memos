@@ -11,43 +11,43 @@
 
 ## List
 
-- [ ]  framework for building web user interfaces
-  - [ ]  React.js
-  - [ ]  Next.js
-- [ ]  package.json
-- [ ]  Node.js package manager
-  - [ ]  volta
-- [ ]  .vscode
-- [ ]  linter, formatter
-  - [ ]  ESLint
-  - [ ]  Prettier
-  - [ ]  stylelint
-- [ ]  TypeScript
-  - [ ]  tsconfig.json
-  - [ ]  typesync
-- [ ]  build
-  - [ ]  Babel
-  - [ ]  Webpack
-- [ ]  styling
-  - [ ]  library
-    - [ ]  styled-components
-    - [ ]  css-modules
-  - [ ]  reset CSS
-    - [ ]  destyle.css
-- [ ]  code generator
-  - [ ]  hygen
-- [ ]  Storybook
-- [ ]  API specification
-  - [ ]  GraphQL
-- [ ]  test
-  - [ ]  unit testing
-    - [ ]  jest
-    - [ ]  testing-library
-  - [ ]  VRT
-  - [ ]  E2E
-    - [ ]  Cypress
-    - [ ]  Autify
-  - [ ]  mocking
-    - [ ]  MSW
-- [ ]  CI
-- [ ]  deploy
+- [ ] framework for building web user interfaces
+  - [ ] React.js
+  - [ ] Next.js
+- [ ] package.json
+- [ ] Node.js package manager
+  - [ ] volta
+- [ ] .vscode
+- [ ] linter, formatter
+  - [ ] ESLint
+  - [ ] Prettier
+  - [ ] stylelint
+- [ ] TypeScript
+  - [ ] tsconfig.json
+  - [ ] typesync
+- [ ] build
+  - [ ] Babel
+  - [ ] Webpack
+- [ ] styling
+  - [ ] library
+    - [ ] styled-components
+    - [ ] css-modules
+  - [ ] reset CSS
+    - [ ] destyle.css
+- [ ] code generator
+  - [ ] hygen
+- [ ] Storybook
+- [ ] API specification
+  - [ ] GraphQL
+- [ ] test
+  - [ ] unit testing
+    - [ ] jest
+    - [ ] testing-library
+  - [ ] VRT
+  - [ ] E2E
+    - [ ] Cypress
+    - [ ] Autify
+  - [ ] mocking
+    - [ ] MSW
+- [ ] CI
+- [ ] deploy
