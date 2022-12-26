@@ -1,11 +1,13 @@
 # React.js Topics
 
 - [React.js Topics](#reactjs-topics)
-  - [Component Design](#component-design)
+  - [Design](#design)
   - [Managing State](#managing-state)
   - [References](#references)
 
-## Component Design
+## Design
+
+[design](./design.md)
 
 ## Managing State
 
