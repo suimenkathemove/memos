@@ -1,0 +1,5 @@
+# sleep
+
+```shell
+sleep [number]
+```
