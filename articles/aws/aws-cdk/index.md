@@ -1,9 +1,10 @@
 # AWS CDK
 
 - [AWS CDK](#aws-cdk)
-  - [`aws-cdk`](#aws-cdk-1)
-  - [`aws-cdk-lib`](#aws-cdk-lib)
+  - [init](#init)
 
-## `aws-cdk`
+## init
 
-## `aws-cdk-lib`
+```shell
+npx cdk init app --language typescript
+```
