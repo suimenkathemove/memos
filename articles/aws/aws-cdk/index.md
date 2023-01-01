@@ -1,9 +1,9 @@
 # AWS CDK
 
 - [AWS CDK](#aws-cdk)
-  - [init](#init)
+  - [Init](#init)
 
-## init
+## Init
 
 ```shell
 npx cdk init app --language typescript
