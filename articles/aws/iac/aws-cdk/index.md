@@ -4,6 +4,7 @@
   - [Init](#init)
   - [List the stacks](#list-the-stacks)
   - [Bootstrap](#bootstrap)
+  - [Deploy](#deploy)
   - [Diff](#diff)
   - [Destroy](#destroy)
 
@@ -26,6 +27,12 @@ cdk bootstrap
 ```
 
 初めて`cdk deploy`をする前に実行する必要がある
+
+## Deploy
+
+```shell
+cdk deploy
+```
 
 ## Diff
 
