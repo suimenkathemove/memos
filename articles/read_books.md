@@ -68,3 +68,5 @@
     - [x] 3
 - [ ] 1ヶ月で洋書が読めるタニケイ式英語リーディング 改訂版
   - [x] 1
+- [ ] Domain Modeling Made Functional
+- [ ] Functional and Reactive Domain Modeling
