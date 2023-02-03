@@ -18,6 +18,9 @@ rustup target add wasm32-wasi
 ```toml
 [lib]
 crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = ""
 ```
 
 ```shell
