@@ -74,3 +74,4 @@
   - [x] 1
 - [ ] Domain Modeling Made Functional
 - [ ] Functional and Reactive Domain Modeling
+- [ ] ソフトウェアテスト技法練習帳 ~知識を経験に変える40問~
