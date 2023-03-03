@@ -9,5 +9,6 @@
 - [ ] Data Modeling
 - [ ] DB Design
   - [ ] DDL
+- [ ] logging
 - [ ] auth
 - [ ] infra
