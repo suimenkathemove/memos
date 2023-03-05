@@ -5,6 +5,8 @@
     - [DB](#db)
       - [List](#list)
       - [Switch](#switch)
+    - [Table](#table)
+      - [List](#list-1)
 
 ## psql
 
@@ -20,4 +22,12 @@
 
 ```shell
 \c DB
+```
+
+### Table
+
+#### List
+
+```shell
+\dt
 ```
