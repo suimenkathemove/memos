@@ -63,6 +63,12 @@ tmux select-window
 
 ## Panes
 
+## Kill Server
+
+```shell
+tmux kill-server
+```
+
 ## Troubleshooting
 
 [バックスペースがスペースになるバグの対応](https://github.com/tmux/tmux/issues/597)
