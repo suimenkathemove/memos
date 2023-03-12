@@ -16,6 +16,7 @@
       "source.fixAll.markdownlint": true
     },
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.fontFamily": "BIZUDGothic-Regular",
     "editor.tabSize": 2
   },
   "[shellscript]": {
