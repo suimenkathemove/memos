@@ -14,3 +14,9 @@ name, version
 ### files
 
 ### main
+
+### dependencies
+
+### devDependencies
+
+### peerDependencies
