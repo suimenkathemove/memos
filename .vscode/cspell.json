@@ -1,5 +1,12 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": ["immer", "nextest", "rustup", "suimenkathemove", "thiserror"]
+  "words": [
+    "immer",
+    "nextest",
+    "rustup",
+    "suimenkathemove",
+    "thiserror",
+    "webextension"
+  ]
 }
