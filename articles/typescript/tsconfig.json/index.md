@@ -15,7 +15,7 @@
 
 ## References
 
-<https://github.com/suimenkathemove/typescript-modules/blob/main/modules/tsconfig/tsconfig.json>
+<https://github.com/suimenkathemove/typescript-packages/blob/main/modules/tsconfig/tsconfig.json>
 
 ## Init
 
