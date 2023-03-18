@@ -79,3 +79,8 @@
 - [ ] Domain Modeling Made Functional
 - [ ] Functional and Reactive Domain Modeling
 - [ ] ソフトウェアテスト技法練習帳 ~知識を経験に変える40問~
+- [ ] 現場で役立つシステム設計の原則 ~変更を楽で安全にするオブジェクト指向の実践技法
+  - [x] 1
+  - [x] 2
+  - [x] 3
+  - [ ] 4
