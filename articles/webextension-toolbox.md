@@ -8,3 +8,5 @@ Install `yo`, `generator-web-extension`.
 # generate template
 yo web-extension
 ```
+
+<https://github.com/webextension-toolbox/generator-web-extension>
