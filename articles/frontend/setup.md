@@ -21,6 +21,7 @@
 - [ ] linter, formatter
   - [ ] ESLint
   - [ ] Prettier
+  - [ ] markuplint
   - [ ] stylelint
 - [ ] TypeScript
   - [ ] tsconfig.json
