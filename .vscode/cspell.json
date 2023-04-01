@@ -9,6 +9,7 @@
     "suimenkathemove",
     "textlint",
     "thiserror",
+    "urql",
     "webextension"
   ]
 }
