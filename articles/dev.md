@@ -6,7 +6,7 @@
 
 [source](https://github.com/suimenkathemove/dotfiles/blob/main/.commands/open-slack-clone.sh)
 
-[コマンドとして設定する](https://github.com/below-water/dotfiles/tree/main/.commands)
+[コマンドとして設定する](https://github.com/suimenkathemove/dotfiles/tree/main/.commands)
 
 ### Setup default shell
 
@@ -17,4 +17,4 @@
 
 `.vscode/settings.json`
 
-[source](https://github.com/below-water/slack-clone/commit/1b99651b36170c5a5d4035043dd7a2935c1bc774)
+[source](https://github.com/suimenkathemove/slack-clone/commit/1b99651b36170c5a5d4035043dd7a2935c1bc774)
