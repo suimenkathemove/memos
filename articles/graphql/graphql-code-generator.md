@@ -7,4 +7,4 @@
 
 <https://github.com/dotansimha/graphql-code-generator#quick-start>
 
-<https://github.com/suimenkathemove/slack-clone/commit/e793488cb95b8a3b82bfbb1fcbe439372e0d25d1>
+<https://github.com/suimenkathemove/monorepo-sandbox/commit/e793488cb95b8a3b82bfbb1fcbe439372e0d25d1>

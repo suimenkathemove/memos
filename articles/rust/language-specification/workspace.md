@@ -12,7 +12,7 @@ members = ["backend", "models"]
 resolver = "2"
 ```
 
-<https://github.com/suimenkathemove/slack-clone/blob/main/Cargo.toml>
+<https://github.com/suimenkathemove/monorepo-sandbox/blob/main/Cargo.toml>
 
 `Cargo.toml`
 

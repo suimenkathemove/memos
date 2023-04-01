@@ -7,7 +7,7 @@
 ## repositories
 
 - <https://github.com/suimenkathemove/react-sandbox>
-- <https://github.com/suimenkathemove/slack-clone>
+- <https://github.com/suimenkathemove/monorepo-sandbox>
 
 ## List
 

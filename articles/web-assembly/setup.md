@@ -39,4 +39,4 @@ wasm-pack build --release --target web
 
 ## References
 
-- <https://github.com/suimenkathemove/slack-clone/commit/11d8fac9f0480eb7fdda9a0824a08ca57723eb41>
+- <https://github.com/suimenkathemove/monorepo-sandbox/commit/11d8fac9f0480eb7fdda9a0824a08ca57723eb41>

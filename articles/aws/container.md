@@ -35,4 +35,4 @@
 
 ## Reference
 
-- <https://github.com/suimenkathemove/slack-clone/tree/main/infrastructure>
+- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure>

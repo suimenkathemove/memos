@@ -32,4 +32,4 @@
 
 ## Links
 
-- <https://github.com/suimenkathemove/slack-clone/tree/main/infrastructure/cloud_formation>
+- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure/cloud_formation>
