@@ -11,6 +11,8 @@
 
 ## Cache
 
+__typenameとidの組み合わせをキャッシュのIDとして使う
+
 ## Devtools
 
 - GraphOS
