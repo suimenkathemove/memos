@@ -4,8 +4,6 @@
 
 ### [Open project with VSCode](../articles/vscode/cli.md#open)
 
-[source](https://github.com/suimenkathemove/dotfiles/blob/main/.commands/open-slack-clone.sh)
-
 [コマンドとして設定する](https://github.com/suimenkathemove/dotfiles/tree/main/.commands)
 
 ### Setup default shell
