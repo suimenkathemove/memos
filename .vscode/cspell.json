@@ -10,6 +10,7 @@
     "textlint",
     "thiserror",
     "urql",
+    "vitepress",
     "webextension"
   ]
 }
