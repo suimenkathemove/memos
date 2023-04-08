@@ -10,5 +10,6 @@
 - [ ] DB Design
   - [ ] DDL
 - [ ] logging
+- [ ] monitoring
 - [ ] auth
 - [ ] infra
