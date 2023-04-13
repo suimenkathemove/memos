@@ -1,1 +1,3 @@
 # JOIN
+
+INNER JOINはJOINと同じ
