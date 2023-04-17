@@ -42,3 +42,7 @@ tree_pathsテーブルを追加で定義し、ノードの先祖/子孫関係の
 | 6        | 6          |
 | 6        | 7          |
 | 7        | 7          |
+
+### References
+
+- <https://fueled.com/the-cache/posts/backend/closure-table/>
