@@ -1,0 +1,5 @@
+# CI
+
+- lint
+- test
+- (deploy)
