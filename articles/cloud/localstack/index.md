@@ -12,3 +12,9 @@
 ```sh
 localstack start
 ```
+
+状態確認
+
+```sh
+localstack status services
+```
