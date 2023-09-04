@@ -4,6 +4,7 @@
 
 - Install LocalStack
 - Configure API Key
+- Configure AWS credentials
 
 ## Commands
 
@@ -18,3 +19,7 @@ localstack start
 ```sh
 localstack status services
 ```
+
+## References
+
+- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure/cdk/localstack-sandbox>
