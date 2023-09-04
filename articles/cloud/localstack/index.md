@@ -4,7 +4,6 @@
 
 - Install LocalStack
 - Configure API Key
-- Configure AWS credentials
 
 ## Commands
 
