@@ -6,6 +6,12 @@
 pnpm install --no-frozen-lockfile
 ```
 
+### target arch
+
+```shell
+npm_config_target_arch=x64 pnpm install
+```
+
 ## Migrate from yarn
 
 ```shell
