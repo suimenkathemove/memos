@@ -16,7 +16,53 @@
 
 ```txt
 <schema element> ::=
-<domain definition> | <table definition> | <view definition> | <grant statement> | <assertion definition> | <character set definition> | <collation definition> | <translation definition>
+<domain definition>
+| <table definition>
+| <view definition>
+| <grant statement>
+| <assertion definition>
+| <character set definition>
+| <collation definition>
+| <translation definition>
+```
+
+### CREATE DOMAIN
+
+ドメイン型とは、既存のデータ型に対して制約を追加した型。
+CREATE DOMAIN文は、ドメイン型を作成するインラインマクロである。
+
+他のドメインを使ってドメインを定義することはできない。
+
+```txt
+<domain definition> ::=
+CREATE DOMAIN <domain name> [AS] <data type>
+[<default clause>]
+[<domain constraint> ...]
+[<collate clause>]
+
+<domain constraint> ::=
+[<constraint name definition>]
+<check constraint definition> [<constraint attributes>]
+```
+
+```txt
+<alter domain statement> ::=
+ALTER DOMAIN <domain name> <alter domain action>
+
+<alter domain action> ::=
+<set domain default clause>
+| <drop domain default clause>
+| <add domain constraint definition>
+| <drop domain constraint definition>
+```
+
+例えば、米国の州コードのドメインは以下のようになる。
+
+```sql
+CREATE DOMAIN StateCode AS CHAR(2)
+DEFAULT '??'
+CONSTRAINT valid_state_code
+CHECK (VALUE IN ('AL', 'AK', 'AZ', ...));
 ```
 
 ### GRANT
