@@ -9,6 +9,7 @@
     "nextest",
     "pipenv",
     "roadmaps",
+    "rustfmt",
     "rustup",
     "suimenkathemove",
     "textlint",
