@@ -1,5 +1,9 @@
 # cargo-make
 
+## References
+
+- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/backend/Makefile.toml>
+
 ## Features
 
 - 他のMakefile.tomlの継承ができる
