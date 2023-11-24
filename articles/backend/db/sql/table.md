@@ -1,5 +1,9 @@
 # Table
 
+- [Table](#table)
+  - [CREATE TABLE](#create-table)
+  - [Column Constraints 列制約](#column-constraints-列制約)
+
 ## CREATE TABLE
 
 CREATE TABLE文に制約と文を詰め込むほど、SQLは速く、簡単になる。
@@ -30,3 +34,36 @@ CREATE TABLE <table name> (<table element list>)
 
 すべての列がデータ型を持たなければならない。
 ALTER文でテーブル定義を変更しない限りデータ型は不変である。
+
+列制約は、列に付与される。
+行制約は、同じ行の複数の列に付与される。
+テーブル制約は、複数の行に（通常は集約された形で）適用される。
+
+```txt
+<constraint name definition> ::= CONSTRAINT <constraint name>
+
+<constraint attributes> ::= <constraint check time> [[NOT] DEFERRABLE] | [NOT] DEFERRABLE [<constraint check time>]
+
+<constraint check time> ::= INITIALLY IMMEDIATE | INITIALLY DEFERRED
+```
+
+制約には名前といくつかの属性を与えることができる。
+
+DEFERRABLEを指定すると遅延制約になり、トランザクションの実行中は制約をオフにすることができる。
+DEFERRABLEを指定するだけでは遅延制約にはならず、遅延可能にするだけである。
+
+constraint check time
+INITIALLY IMMEDIATEとINITIALLY DEFERREDは、初期状態を指定する。
+INITIALLY IMMEDIATEは、DML文が実行されたときに制約を施行する。
+INITIALLY DEFERREDは、トランザクションのコミットの前に制約を施行する。
+デフォルトはINITIALLY IMMEDIATE。
+INITIALLY IMMEDIATEが指定されている場合は、NOT DEFERRABLEになる。
+INITIALLY DEFERREDが指定されている場合は、DEFERRABLEを指定しなければならない。
+
+トランザクション単位で、制約を遅延させるか、即座に施行するかを制御することもできる。
+
+```txt
+<set constraints mode statement> ::= SET CONSTRAINTS <constraint name list> {DEFERRED | IMMEDIATE}
+
+<constraint name list> ::= ALL | <constraint name> [{<comma> <constraint name>} ...]
+```
