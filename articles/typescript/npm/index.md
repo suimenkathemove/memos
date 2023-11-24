@@ -4,6 +4,9 @@
   - [Login](#login)
   - [Publishing scoped public packages](#publishing-scoped-public-packages)
   - [README](#readme)
+  - [Update all packages](#update-all-packages)
+    - [Installation](#installation)
+    - [Usage](#usage)
 
 ## Login
 
@@ -28,3 +31,19 @@ npm publish
 ```
 
 <https://docs.npmjs.com/about-package-readme-files#updating-an-existing-package-readme-file>
+
+## Update all packages
+
+npm-check-updates
+
+### Installation
+
+```shell
+npm install -g npm-check-updates
+```
+
+### Usage
+
+```shell
+ncu -u
+```
