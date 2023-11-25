@@ -18,6 +18,13 @@ CREATE TABLE <table name> (<table element list>)
 
 ## Column Constraints 列制約
 
+すべての列がデータ型を持たなければならない。
+ALTER文でテーブル定義を変更しない限りデータ型は不変である。
+
+列制約は、列に付与される。
+行制約は、同じ行の複数の列に付与される。
+テーブル制約は、複数の行に（通常は集約された形で）適用される。
+
 ```txt
 <column definition> ::=
 <column name> <data type>
@@ -32,13 +39,6 @@ CREATE TABLE <table name> (<table element list>)
 [<constraint attributes>]
 ```
 
-すべての列がデータ型を持たなければならない。
-ALTER文でテーブル定義を変更しない限りデータ型は不変である。
-
-列制約は、列に付与される。
-行制約は、同じ行の複数の列に付与される。
-テーブル制約は、複数の行に（通常は集約された形で）適用される。
-
 ```txt
 <constraint name definition> ::= CONSTRAINT <constraint name>
 
@@ -47,7 +47,8 @@ ALTER文でテーブル定義を変更しない限りデータ型は不変であ
 <constraint check time> ::= INITIALLY IMMEDIATE | INITIALLY DEFERRED
 ```
 
-制約には名前といくつかの属性を与えることができる。
+CONSTRAINTキーワードで制約に名前を付けることができる。
+これにより、エラーのデバッグ時に制約を特定しやすくなったり、エラーメッセージをより明確にすることができる。
 
 DEFERRABLEを指定すると遅延制約になり、トランザクションの実行中は制約をオフにすることができる。
 DEFERRABLEを指定するだけでは遅延制約にはならず、遅延可能にするだけである。
