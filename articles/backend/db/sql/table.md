@@ -3,7 +3,7 @@
 - [Table](#table)
   - [CREATE TABLE](#create-table)
   - [Column Constraints 列制約](#column-constraints-列制約)
-    - [DEFAULT](#default)
+    - [DEFAULT句](#default句)
     - [CONSTRAINT](#constraint)
     - [Constraint Attributes](#constraint-attributes)
 
@@ -42,9 +42,19 @@ ALTER文でテーブル定義を変更しない限りデータ型は不変であ
 [<constraint attributes>]
 ```
 
-### DEFAULT
+### DEFAULT句
+
+```txt
+<default clause> ::= [CONSTRAINT <constraint name>] DEFAULT <default option>
+
+<default option> ::= <literal> | <system value> | NULL
+
+<system value> ::= CURRENT_DATE | CURRENT_TIME | CURRENT_TIMESTAMP | SYSTEM_USER | SESSION_USER | CURRENT_USER
+```
 
 NULLABLEの場合は、デフォルト値はNULLになる。
+
+生成列などを指定することはできない。
 
 ### CONSTRAINT
 
