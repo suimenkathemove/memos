@@ -1,6 +1,6 @@
-# Table
+# DDL
 
-- [Table](#table)
+- [DDL](#ddl)
   - [CREATE TABLE](#create-table)
 
 ## CREATE TABLE
