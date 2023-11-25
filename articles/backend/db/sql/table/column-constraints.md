@@ -1,25 +1,9 @@
-# Table
+# Column Constraints 列制約
 
-- [Table](#table)
-  - [CREATE TABLE](#create-table)
-  - [Column Constraints 列制約](#column-constraints-列制約)
-    - [DEFAULT句](#default句)
-    - [CONSTRAINT](#constraint)
-    - [Constraint Attributes](#constraint-attributes)
-
-## CREATE TABLE
-
-CREATE TABLE文に制約と文を詰め込むほど、SQLは速く、簡単になる。
-
-```txt
-CREATE TABLE <table name> (<table element list>)
-<table element list> ::=
-<table element> | <table element>, <table element list>
-<table element> ::=
-<column definition> | <table constraint definition>
-```
-
-## Column Constraints 列制約
+- [Column Constraints 列制約](#column-constraints-列制約)
+  - [DEFAULT句](#default句)
+  - [CONSTRAINT](#constraint)
+  - [Constraint Attributes](#constraint-attributes)
 
 すべての列がデータ型を持たなければならない。
 ALTER文でテーブル定義を変更しない限りデータ型は不変である。
@@ -42,7 +26,7 @@ ALTER文でテーブル定義を変更しない限りデータ型は不変であ
 [<constraint attributes>]
 ```
 
-### DEFAULT句
+## DEFAULT句
 
 ```txt
 <default clause> ::= [CONSTRAINT <constraint name>] DEFAULT <default option>
@@ -56,7 +40,7 @@ NULLABLEの場合は、デフォルト値はNULLになる。
 
 生成列などを指定することはできない。
 
-### CONSTRAINT
+## CONSTRAINT
 
 ```txt
 <constraint name definition> ::= CONSTRAINT <constraint name>
@@ -65,7 +49,7 @@ NULLABLEの場合は、デフォルト値はNULLになる。
 CONSTRAINTキーワードで制約に名前を付けることができる。
 これにより、エラーのデバッグ時に制約を特定しやすくなったり、エラーメッセージをより明確にすることができる。
 
-### Constraint Attributes
+## Constraint Attributes
 
 ```txt
 <constraint attributes> ::= <constraint check time> [[NOT] DEFERRABLE] | [NOT] DEFERRABLE [<constraint check time>]
