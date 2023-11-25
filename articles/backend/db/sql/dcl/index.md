@@ -1,0 +1,6 @@
+# DCL
+
+```sql
+GRANT <ROLE> TO <USER>
+REVOKE <ROLE> FROM <USER>
+```
