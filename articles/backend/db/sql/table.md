@@ -3,6 +3,8 @@
 - [Table](#table)
   - [CREATE TABLE](#create-table)
   - [Column Constraints 列制約](#column-constraints-列制約)
+    - [CONSTRAINT](#constraint)
+    - [Constraint Attributes](#constraint-attributes)
 
 ## CREATE TABLE
 
@@ -39,16 +41,22 @@ ALTER文でテーブル定義を変更しない限りデータ型は不変であ
 [<constraint attributes>]
 ```
 
+### CONSTRAINT
+
 ```txt
 <constraint name definition> ::= CONSTRAINT <constraint name>
-
-<constraint attributes> ::= <constraint check time> [[NOT] DEFERRABLE] | [NOT] DEFERRABLE [<constraint check time>]
-
-<constraint check time> ::= INITIALLY IMMEDIATE | INITIALLY DEFERRED
 ```
 
 CONSTRAINTキーワードで制約に名前を付けることができる。
 これにより、エラーのデバッグ時に制約を特定しやすくなったり、エラーメッセージをより明確にすることができる。
+
+### Constraint Attributes
+
+```txt
+<constraint attributes> ::= <constraint check time> [[NOT] DEFERRABLE] | [NOT] DEFERRABLE [<constraint check time>]
+
+<constraint check time> ::= INITIALLY IMMEDIATE | INITIALLY DEFERRED
+```
 
 DEFERRABLEを指定すると遅延制約になり、トランザクションの実行中は制約をオフにすることができる。
 DEFERRABLEを指定するだけでは遅延制約にはならず、遅延可能にするだけである。
