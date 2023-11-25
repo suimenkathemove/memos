@@ -2,6 +2,7 @@
 
 - [DDL](#ddl)
   - [CREATE TABLE](#create-table)
+  - [DROP TABLE](#drop-table)
 
 ## CREATE TABLE
 
@@ -14,3 +15,11 @@ CREATE TABLE <table name> (<table element list>)
 <table element> ::=
 <column definition> | <table constraint definition>
 ```
+
+## DROP TABLE
+
+```sql
+DROP TABLE <table name>
+```
+
+DDLはロールバックできない場合があるので、バックアップをしておく。
