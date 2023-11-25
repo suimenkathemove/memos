@@ -3,6 +3,7 @@
 - [DDL](#ddl)
   - [CREATE TABLE](#create-table)
   - [DROP TABLE](#drop-table)
+    - [drop behavior](#drop-behavior)
   - [ALTER TABLE](#alter-table)
   - [IF EXISTS, IF NOT EXISTS](#if-exists-if-not-exists)
 
@@ -29,10 +30,18 @@ CREATE TABLE <table name> (<table element list>)
 ## DROP TABLE
 
 ```sql
-DROP TABLE <table name>
+<drop table statement> ::= DROP TABLE <table name> [<drop behavior>]
+
+<drop behavior> ::= RESTRICT | CASCADE
 ```
 
 DDLはロールバックできない場合があるので、バックアップをしておく。
+
+### drop behavior
+
+デフォルトはRESTRICT。
+RESTRICT⋯他に参照されている場合はエラーにする。
+CASCADE⋯参照元のオブジェクトも削除される。
 
 ## ALTER TABLE
 
