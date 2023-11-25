@@ -3,6 +3,7 @@
 - [Table](#table)
   - [CREATE TABLE](#create-table)
   - [Column Constraints 列制約](#column-constraints-列制約)
+    - [DEFAULT](#default)
     - [CONSTRAINT](#constraint)
     - [Constraint Attributes](#constraint-attributes)
 
@@ -40,6 +41,10 @@ ALTER文でテーブル定義を変更しない限りデータ型は不変であ
 | <references specification>
 [<constraint attributes>]
 ```
+
+### DEFAULT
+
+NULLABLEの場合は、デフォルト値はNULLになる。
 
 ### CONSTRAINT
 
