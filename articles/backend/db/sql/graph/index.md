@@ -1,4 +1,4 @@
-# Hierarchical Data 階層型データ
+# Graph グラフ
 
 - 隣接リスト
 - 再帰クエリ
