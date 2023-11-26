@@ -5,6 +5,9 @@
   - [DROP TABLE](#drop-table)
     - [drop behavior](#drop-behavior)
   - [ALTER TABLE](#alter-table)
+    - [ADD COLUMN](#add-column)
+    - [ALTER COLUMN](#alter-column)
+    - [ADD](#add-)
   - [IF EXISTS, IF NOT EXISTS](#if-exists-if-not-exists)
 
 ## CREATE TABLE
@@ -45,17 +48,31 @@ CASCADE⋯参照元のオブジェクトも削除される。
 
 ## ALTER TABLE
 
-テーブル定義の内容を変更する。
+列や列制約を、追加、削除、変更する。
 
 ```sql
--- 列の追加
-ALTER TABLE <table name> ADD <column name> <type>
+ALTER TABLE <table name> <alter table action>
 
--- 列の削除
-ALTER TABLE <table name> DROP <column name>
+<alter table action> ::=
+| ADD [COLUMN] <column definition>
+| DROP [COLUMN] <column name> <drop behavior>
+| ALTER [COLUMN] <column name> <alter column action>
+| ADD <table constraint definition>
+| DROP CONSTRAINT <constraint name> <drop behavior>
 ```
 
-既存のテーブルに列を追加する場合、その列の挿入位置は通常1番後ろになる（挿入位置を指定できるDBMSもある）。
+### ADD COLUMN
+
+列を追加する場合は、その列の挿入位置は通常は最後になる（挿入位置を指定できるDBMSもある）。
+
+### ALTER COLUMN
+
+データ型を他の互換可能なデータ型に変更するために使うことが多い(例えば、CHAR(n)のサイズを長くすることはできるが、短くすることはできない。INTEGER型をREAL型にすることはできる)。
+
+### ADD <table constraint definition>
+
+テーブルに制約を追加する。
+古いDBMSの場合は、追加した制約に関して既存のデータをチェックしない可能性がある。
 
 ## IF EXISTS, IF NOT EXISTS
 
