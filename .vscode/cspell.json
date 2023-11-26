@@ -4,9 +4,11 @@
   "words": [
     "clippy",
     "immer",
+    "indegree",
     "keycloak",
     "lawgue",
     "nextest",
+    "outdegree",
     "pipenv",
     "roadmaps",
     "rustfmt",
