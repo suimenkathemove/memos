@@ -8,6 +8,7 @@
   - [PRIMARY KEY](#primary-key)
     - [Simple Primary Key](#simple-primary-key)
     - [Composite Primary Key](#composite-primary-key)
+  - [FOREIGN KEY](#foreign-key)
   - [CONSTRAINT](#constraint)
   - [Constraint Attributes](#constraint-attributes)
 
@@ -76,11 +77,25 @@ CREATE TABLE users (
 CREATE TABLE relationships (
   id_1 UUID,
   id_2 UUID,
+  -- 最後に指定する
   PRIMARY KEY (id_1, id_2)
 )
 ```
 
-最後に指定するのが慣例である。
+## FOREIGN KEY
+
+FOREIGN KEY制約は、外部キー(参照先の列を指す参照元の列)に指定することで、参照整合性が壊れるのを防ぐ。
+
+```sql
+CREATE TABLE tables (
+  column type REFERENCES referenced_tables (column)
+)
+
+CREATE TABLE tables (
+  -- 最後に指定する
+  FOREIGN KEY (<column>) REFERENCES referenced_tables (<column>)
+)
+```
 
 ## CONSTRAINT
 
