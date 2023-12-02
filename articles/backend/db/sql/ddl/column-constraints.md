@@ -2,6 +2,9 @@
 
 - [Column Constraints 列制約](#column-constraints-列制約)
   - [DEFAULT句](#default句)
+  - [NOT NULL](#not-null)
+  - [UNIQUE](#unique)
+  - [CHECK](#check)
   - [CONSTRAINT](#constraint)
   - [Constraint Attributes](#constraint-attributes)
 
@@ -39,6 +42,14 @@ ALTER文でテーブル定義を変更しない限りデータ型は不変であ
 NULLABLEの場合は、デフォルト値はNULLになる。
 
 生成列などを指定することはできない。
+
+## NOT NULL
+
+## UNIQUE
+
+`NULL != NULL`なので、NULLの重複は許される。
+
+## CHECK
 
 ## CONSTRAINT
 
