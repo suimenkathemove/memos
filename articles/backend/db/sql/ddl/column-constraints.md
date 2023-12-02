@@ -5,6 +5,9 @@
   - [NOT NULL](#not-null)
   - [UNIQUE](#unique)
   - [CHECK](#check)
+  - [PRIMARY KEY](#primary-key)
+    - [Simple Primary Key](#simple-primary-key)
+    - [Composite Primary Key](#composite-primary-key)
   - [CONSTRAINT](#constraint)
   - [Constraint Attributes](#constraint-attributes)
 
@@ -50,6 +53,34 @@ NULLABLEの場合は、デフォルト値はNULLになる。
 `NULL != NULL`なので、NULLの重複は許される。
 
 ## CHECK
+
+## PRIMARY KEY
+
+PRIMARY KEY制約は、行を識別するための値を持つ列に指定する。
+テーブル定義に必須で、1つだけ指定する。
+PRIMARY KEY制約は、NOT NULL制約、かつ、UNIQUE制約である。
+
+PRIMARY KEY制約を指定する方法には、Simple Primary KeyとComposite Primary Keyの2つがある。
+
+### Simple Primary Key
+
+```sql
+CREATE TABLE users (
+  id UUID PRIMARY KEY
+)
+```
+
+### Composite Primary Key
+
+```sql
+CREATE TABLE relationships (
+  id_1 UUID,
+  id_2 UUID,
+  PRIMARY KEY (id_1, id_2)
+)
+```
+
+最後に指定するのが慣例である。
 
 ## CONSTRAINT
 
