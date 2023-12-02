@@ -8,6 +8,7 @@
     - [ADD COLUMN](#add-column)
     - [ALTER COLUMN](#alter-column)
     - [ADD](#add-)
+  - [TRUNCATE TABLE](#truncate-table)
   - [IF EXISTS, IF NOT EXISTS](#if-exists-if-not-exists)
 
 ## CREATE TABLE
@@ -73,6 +74,16 @@ ALTER TABLE <table name> <alter table action>
 
 テーブルに制約を追加する。
 古いDBMSの場合は、追加した制約に関して既存のデータをチェックしない可能性がある。
+
+## TRUNCATE TABLE
+
+```sql
+TRUNCATE TABLE <table name>
+```
+
+TRUNCATE TABLE文は、テーブルを初期化する。
+
+DELETE文は記録を残すため低速だが、TRUNCATE文は記録を残さないため高速である。
 
 ## IF EXISTS, IF NOT EXISTS
 
