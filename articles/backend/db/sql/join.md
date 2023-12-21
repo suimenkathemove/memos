@@ -1,3 +1,3 @@
 # JOIN
 
-INNER JOINはJOINと同じ
+<https://github.com/suimenkathemove/sql-sandbox/tree/main/docs/join>
