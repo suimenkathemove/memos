@@ -18,6 +18,7 @@
     "suimenkathemove",
     "textlint",
     "thiserror",
+    "turbopack",
     "urql",
     "vitepress",
     "webextension"
