@@ -95,8 +95,8 @@
   - [ ] 1
     - [x] ~2
   - [ ] 3
-    - [ ] 1
-      - [x] ~7
+    - [x] ~1
+    - [ ] 2
 
 ### Software Design & Architecture
 
