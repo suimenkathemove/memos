@@ -87,3 +87,17 @@ if文があると理解しづらくなり保守コストが高くなるので、
 - どのような検証をするのかを、ドメインに精通している非開発者に対して伝わるような名前にする
 
 <!-- TODO: Unit Testing p.80 L5-L14 -->
+
+テスト対象のメソッド名をテスト名に含めるべきではない。
+単体テストはコードをテストしているのではなく、アプリケーションの振る舞いをテストしているからである。
+ユーティリティ系のコードにはビジネスロジックが含まれていないので例外である。
+
+`delivery_with_invalid_date_should_be_considered_invalid()`
+invalid_dateとは具体的には過去の日付のことだから、
+`delivery_with_past_date_should_be_considered_invalid()`
+consideredは冗長なので、
+`delivery_with_past_date_should_be_invalid()`
+shouldを使うのはアンチパターンである。単体テストとは、1単位の振る舞いについての1つの不可分な事実を伝えるものだから。
+`delivery_with_past_date_is_invalid()`
+文法的に正しくすると、
+`delivery_with_a_past_date_is_invalid()`
