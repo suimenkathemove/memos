@@ -1,7 +1,6 @@
 # tsconfig.json
 
 - [tsconfig.json](#tsconfigjson)
-  - [References](#references)
   - [Init](#init)
   - [Options](#options)
     - [target](#target)
@@ -12,10 +11,6 @@
     - [moduleResolution](#moduleresolution)
   - [Use absolute path](#use-absolute-path)
     - [When using `ts-node`](#when-using-ts-node)
-
-## References
-
-<https://github.com/suimenkathemove/typescript-packages/blob/main/modules/tsconfig/tsconfig.json>
 
 ## Init
 
