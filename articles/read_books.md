@@ -107,6 +107,7 @@
 
 ### AWS
 
+- [ ] 図解即戦力 Amazon Web Servicesのしくみと技術がこれ1冊でしっかりわかる教科書
 - [ ] AWSコンテナ設計・構築[本格]入門
 
 ### Computer Science
