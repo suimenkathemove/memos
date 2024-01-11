@@ -107,3 +107,7 @@
 ### Computer Science
 
 - [ ] 並行プログラミング入門 ―Rust、C、アセンブリによる実装からのアプローチ
+
+### AI
+
+- [ ] 生成AI・ChatGPTでPythonプログラミング アウトプットを10倍にする！GPT4&GPT3.5対応
