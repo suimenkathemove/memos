@@ -1,5 +1,5 @@
 {
-  "name": "articles",
+  "name": "memos",
   "version": "1.0.0",
   "scripts": {
     "markdownlint": "markdownlint-cli2 '**/*.md' '#node_modules'"

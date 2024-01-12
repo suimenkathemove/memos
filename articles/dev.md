@@ -2,7 +2,7 @@
 
 ## VSCode + tmux
 
-### [Open project with VSCode](../articles/vscode/cli.md#open)
+### [Open project with VSCode](../memos/vscode/cli.md#open)
 
 [コマンドとして設定する](https://github.com/suimenkathemove/dotfiles/tree/main/.commands)
 
@@ -10,7 +10,7 @@
 
 `dev.sh`
 
-[dev.sh](../../articles/dev.sh)
+[dev.sh](../../memos/dev.sh)
 [source](https://github.com/suimenkathemove/monorepo-sandbox/blob/main/dev.sh)
 
 `.vscode/settings.json`
