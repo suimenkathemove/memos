@@ -12,7 +12,7 @@
 ## command
 
 ```shell
-cargo nextest run <test-name1> <test-name2> ...
+cargo nextest run <test-name1> <test-name2> <path::to::module> ...
 ```
 
 ### options
