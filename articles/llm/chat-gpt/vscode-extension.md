@@ -1,6 +1,4 @@
-# ChatGPT
-
-## VSCode Extension from local
+# ChatGPT VSCode Extension from local
 
 ```shell
 git clone https://github.com/gencay/vscode-chatgpt.git
