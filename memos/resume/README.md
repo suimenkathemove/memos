@@ -4,7 +4,7 @@
 
 | key    | value                                |
 | ------ | ------------------------------------ |
-| 氏名   | 加藤　義晴                           |
+| 氏名   | 加藤 義晴                            |
 | GitHub | <https://github.com/suimenkathemove> |
 | Qiita  | <https://qiita.com/suimenkathemove>  |
 
