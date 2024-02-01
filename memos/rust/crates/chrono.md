@@ -1,3 +1,0 @@
-# Chrono
-
-- [Chrono](#chrono)
