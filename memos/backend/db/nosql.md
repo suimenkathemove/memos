@@ -1,3 +1,0 @@
-# NoSQL
-
-- [NoSQL](#nosql)
