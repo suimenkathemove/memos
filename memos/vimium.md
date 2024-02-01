@@ -1,3 +1,0 @@
-# Vimium
-
-- [Vimium](#vimium)

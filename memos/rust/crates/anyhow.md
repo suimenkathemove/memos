@@ -1,3 +1,0 @@
-# Anyhow
-
-- [Anyhow](#anyhow)
