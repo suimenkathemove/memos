@@ -24,12 +24,9 @@
 
 ## 自己PR
 
-「怠惰を求めて勤勉に行き着く」をモットーに、効率的な開発を心がけています。
-[開発サーバを自動的に立ち上げるスクリプト](https://github.com/suimenkathemove/monorepo-sandbox/blob/main/dev.sh)や、[複数ディスプレイ間でマウスを移動させるスクリプト](https://github.com/suimenkathemove/dotfiles/blob/main/applescripts/move-between-displays.applescript)などを作りました。
-開発ツールはVSCode+Neovim+tmuxを使っています。
-
-フルスタックエンジニアとしてフロントエンドもバックエンドも突き詰めていきたいです。
-複雑なロジックのアプリを開発するのが好きで得意だと思います。
+「怠惰を求めて勤勉に行き着く」がモットー(にしたい)です。
+フルスタックで幅広い開発経験があります。フロントエンドでは1から1人で開発した経験が多々あります。
+実装力と自走力に自信があります。複雑なロジックのアプリを開発するのが好きで得意だと思います。
 また、バグ改修が得意です。
 
 ## ポートフォリオ
@@ -41,6 +38,9 @@
   - [Markdown WYSIWYG Editor](https://github.com/suimenkathemove/react-sandbox#wasmmarkdowneditor)
 - [monorepo-sandbox](https://github.com/suimenkathemove/monorepo-sandbox)
   - Notionライクなアプリを開発中
+    - [木構造をSQLで実装](https://zenn.dev/suimenkathemove/articles/sql-closure-table-for-tree)
+- [開発サーバを自動的に立ち上げるスクリプト](https://github.com/suimenkathemove/monorepo-sandbox/blob/main/dev.sh)
+- [複数ディスプレイ間でマウスを移動させるスクリプト](https://github.com/suimenkathemove/dotfiles/blob/main/applescripts/move-between-displays.applescript)
 
 ## 経歴
 
@@ -59,15 +59,31 @@
 
 #### プロジェクト概要
 
-<!-- TODO -->
+契約書のオンラインエディタ[lawgue](https://lawgue.com/)の開発
 
 #### 業務内容
 
-フロントエンドとバックエンドの機能追加、改修
+フロントエンド領域で最も実装が難しいソフトウェアの1つであるエディタ。
+そのフロントエンドとバックエンドの機能追加と改修を担当。
 
-#### 成果
+##### 主なタスク
 
-<!-- TODO -->
+- 表の、複数選択した行や列を削除する機能の実装
+- ドキュメントのステータス(下書き・レビュー中・完了など)を増やす
+- コメントのメンションの抽出の作り直し
+- 通知の既読機能の実装
+- Popoverコンポーネントの座標の計算の作り直しと、枠からはみ出る場合の折り返しの実装
+- Zendeskの対応
+- テーブルの幅や高さのリサイズの線の、マージされたセルの考慮
+- textlintのPoC
+- 画像をWebPに変換するマイグレーションツールの作成
+- MLの用字用語をチェックするAPIをラップするAPIの作成
+- Playwrightのセットアップ
+- エディタのメニューをVSCodeのアクティビティバーのように縦にする
+- ドキュメントの履歴の任意のバージョンのプレビューページの作成
+- テーブルのインデントの実装
+- 行末に半角スペースがある場合は行を折り返さないように修正
+- テーブルのセルのセレクションの移動の実装
 
 ### ドキュメント作成ツールの開発
 
@@ -78,8 +94,4 @@ DnDで木構造のスクリプトを作成し、そのスクリプトを実行�
 
 #### 業務内容
 
-フロントエンドの立ち上げ
-
-#### 成果
-
-<!-- TODO -->
+フロントエンドの開発の立ち上げから担当。
