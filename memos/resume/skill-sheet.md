@@ -29,9 +29,18 @@
 開発ツールはVSCode+Neovim+tmuxを使っています。
 
 フルスタックエンジニアとしてフロントエンドもバックエンドも突き詰めていきたいです。
-個人開発では、[Google Calendarライクなコンポーネント](https://github.com/suimenkathemove/react-sandbox#weeklycalendar)、[Markdown WYSIWYG Editor](https://github.com/suimenkathemove/react-sandbox#wasmmarkdowneditor)(開発中)、[SlackとNotionのクローンアプリ](https://github.com/suimenkathemove/monorepo-sandbox)(開発中)を作っています。
 複雑なロジックのアプリを開発するのが好きで得意だと思います。
 また、バグ改修が得意です。
+
+## ポートフォリオ
+
+- [typescript-sandbox](https://github.com/suimenkathemove/typescript-sandbox)
+- [rust_sandbox](https://github.com/suimenkathemove/rust_sandbox)
+- [react-sandbox](https://github.com/suimenkathemove/react-sandbox)
+  - [Google Calendarライクなコンポーネント](https://github.com/suimenkathemove/react-sandbox#weeklycalendar)
+  - [Markdown WYSIWYG Editor](https://github.com/suimenkathemove/react-sandbox#wasmmarkdowneditor)
+- [monorepo-sandbox](https://github.com/suimenkathemove/monorepo-sandbox)
+  - Notionライクなアプリを開発中
 
 ## 経歴
 
