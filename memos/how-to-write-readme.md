@@ -6,3 +6,8 @@
 - Technology Stacks
 - Setting up and Running locally
 - License
+
+## 参考
+
+- <https://github.com/suimenkathemove/react-sandbox/blob/main/README.md>
+- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/README.md>
