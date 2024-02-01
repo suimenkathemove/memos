@@ -1,3 +1,0 @@
-# Elasticsearch
-
-- [Elasticsearch](#elasticsearch)
