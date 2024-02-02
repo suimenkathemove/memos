@@ -5,6 +5,7 @@
     - [options](#options)
   - [Install](#install)
     - [options](#options-1)
+  - [cargo update](#cargo-update)
 
 ## Creating a New Package
 
@@ -30,3 +31,11 @@ cargo install [options] PACKAGE
 | option | description |
 | ------ | ----------- |
 | --list | list        |
+
+## cargo update
+
+Update dependencies as recorded in the local lock file.
+
+```sh
+cargo update
+```
