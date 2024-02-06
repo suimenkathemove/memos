@@ -3,6 +3,8 @@
 - [Docker](#docker)
   - [exec](#exec)
   - [Stop all container](#stop-all-container)
+  - [Troubleshooting](#troubleshooting)
+    - [com.docker.backend cannot start](#comdockerbackend-cannot-start)
 
 ## exec
 
@@ -14,4 +16,12 @@ docker exec -it CONTAINER bash
 
 ```shell
 docker stop $(docker ps -aq)
+```
+
+## Troubleshooting
+
+### com.docker.backend cannot start
+
+```sh
+rm -rf ~/.docker
 ```
