@@ -3,6 +3,7 @@
 - [rustup](#rustup)
   - [toolchain](#toolchain)
   - [target](#target)
+  - [Show installed toolchains](#show-installed-toolchains)
 
 ## toolchain
 
@@ -14,4 +15,10 @@ Manage with rustup.
 
 ```shell
 rustup target add <target>
+```
+
+## Show installed toolchains
+
+```sh
+rustup show
 ```
