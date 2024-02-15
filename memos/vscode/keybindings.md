@@ -1,12 +1,13 @@
 # keybindings
 
-| command                           | keybinding |
-| --------------------------------- | ---------- |
-| View: Toggle Problems             | ⇧⌘M        |
-| View: Focus into Primary Side Bar | ⌘0         |
-| View: Focus First Editor Group    | ⌘1         |
-| Git: Revert Selected Ranges       | ⌘K⌘R       |
-| Show or Focus Hover               | Shift + K  |
+| command                           | keybinding          |
+| --------------------------------- | ------------------- |
+| View: Toggle Problems             | ⇧⌘M                 |
+| View: Focus into Primary Side Bar | ⌘0                  |
+| View: Focus First Editor Group    | ⌘1                  |
+| Git: Revert Selected Ranges       | ⌘K⌘R                |
+| Show or Focus Hover               | Shift + K           |
+| Focus Breadcrumbs                 | Shift + Command + ; |
 
 ## Search
 
