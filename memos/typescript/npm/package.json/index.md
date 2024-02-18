@@ -1,15 +1,18 @@
 # package.json
 
-## required fields
+## fields
 
-name, version
-[https://docs.npmjs.com/creating-a-package-json-file#required-name-and-version-fields](https://docs.npmjs.com/creating-a-package-json-file#required-name-and-version-fields)
+### name
 
-## recommended fields
+### version
+
+### description
+
+### keywords
 
 ### license
 
-## optional fields
+### author
 
 ### files
 
@@ -50,3 +53,11 @@ name, version
 #### devDependencies
 
 #### peerDependencies
+
+### engines
+
+## sort fields
+
+```sh
+npx sort-package-json
+```
