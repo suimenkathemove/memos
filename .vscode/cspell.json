@@ -15,6 +15,7 @@
     "pipenv",
     "raycast",
     "roadmaps",
+    "rustc",
     "rustfmt",
     "rustup",
     "savepoint",
