@@ -1,47 +1,22 @@
 # AWS CDK
 
-- [AWS CDK](#aws-cdk)
-  - [Init](#init)
-  - [List the stacks](#list-the-stacks)
-  - [Bootstrap](#bootstrap)
-  - [Deploy](#deploy)
-  - [Diff](#diff)
-  - [Destroy](#destroy)
-
-## Init
-
 ```shell
-npx cdk init app --language typescript
-```
+# Init
+cdk init app --language typescript
 
-## List the stacks
-
-```shell
+# List the stacks
 cdk ls
-```
 
-## Bootstrap
-
-```shell
+# Bootstrap
+# 初めて`cdk deploy`をする前に実行する必要がある
 cdk bootstrap
-```
 
-初めて`cdk deploy`をする前に実行する必要がある
-
-## Deploy
-
-```shell
+# Deploy
 cdk deploy
-```
 
-## Diff
-
-```shell
+# Diff
 cdk diff
-```
 
-## Destroy
-
-```shell
+# Destroy
 cdk destroy
 ```
