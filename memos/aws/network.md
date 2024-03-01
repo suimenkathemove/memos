@@ -4,6 +4,9 @@
   - [VPC, Subnets](#vpc-subnets)
     - [VPC](#vpc)
     - [VPC Endpoint](#vpc-endpoint)
+      - [props](#props)
+        - [serviceName(required)](#servicenamerequired)
+        - [vpcId(required)](#vpcidrequired)
     - [Subnets](#subnets)
     - [AZ](#az)
     - [CIDR](#cidr)
@@ -21,10 +24,20 @@
 
 VPC内からS3やECRなどのVPC外のAWSサービスにアクセスする場合、Internet gatewayを経由する方法と、VPCエンドポイントを経由する方法の2種類がある。
 
-VPCエンドポイントには以下の2種類がある。
+#### props
 
-- ゲートウェイ型
+##### serviceName(required)
+
 - インターフェース型
+  - `com.amazonaws.[region].ecr.api`
+    - ECR APIの呼び出しに利用される
+  - `com.amazonaws.[region].ecr.dkr`
+    - Dockerコマンドの呼び出しに利用される
+- ゲートウェイ型
+  - `com.amazonaws.[region].s3`
+    - Dockerイメージの取得に利用される
+
+##### vpcId(required)
 
 ### Subnets
 
