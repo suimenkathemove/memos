@@ -3,6 +3,7 @@
 - [Network](#network)
   - [VPC, Subnets](#vpc-subnets)
     - [VPC](#vpc)
+    - [VPC Endpoint](#vpc-endpoint)
     - [Subnets](#subnets)
     - [AZ](#az)
     - [CIDR](#cidr)
@@ -15,6 +16,15 @@
 ### VPC
 
 仮想ネットワーク
+
+### VPC Endpoint
+
+VPC内からS3やECRなどのVPC外のAWSサービスにアクセスする場合、Internet gatewayを経由する方法と、VPCエンドポイントを経由する方法の2種類がある。
+
+VPCエンドポイントには以下の2種類がある。
+
+- ゲートウェイ型
+- インターフェース型
 
 ### Subnets
 
