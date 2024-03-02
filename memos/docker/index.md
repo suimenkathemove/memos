@@ -3,6 +3,7 @@
 - [Docker](#docker)
   - [exec](#exec)
   - [Stop all container](#stop-all-container)
+  - [image push](#image-push)
   - [Troubleshooting](#troubleshooting)
     - [com.docker.backend cannot start](#comdockerbackend-cannot-start)
 
@@ -16,6 +17,12 @@ docker exec -it CONTAINER bash
 
 ```shell
 docker stop $(docker ps -aq)
+```
+
+## image push
+
+```sh
+docker image push NAME[:TAG]
 ```
 
 ## Troubleshooting

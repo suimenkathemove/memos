@@ -3,6 +3,10 @@
 - [Container](#container)
   - [Flow](#flow)
     - [Network](#network)
+  - [AWSリソース](#awsリソース)
+    - [ECS](#ecs)
+    - [Fargate](#fargate)
+    - [ECS on Fargate](#ecs-on-fargate)
   - [Reference](#reference)
 
 ## Flow
@@ -32,6 +36,23 @@
     - a, c
   - ルートテーブル
   - サブネットへルート紐付け
+
+## AWSリソース
+
+### ECS
+
+ECSは、稼働するコンテナのスケールや死活監視等の管理をするコントロールプレーンである。
+
+### Fargate
+
+サーバーレスコンピューティングエンジン
+コンテナが稼働するリソース環境を提供するデータプレーン
+
+### ECS on Fargate
+
+ECRにコンテナイメージをpushした後、そのイメージをデプロイするようにECS上のコンテナ「定義」をアップデートする。
+指示を受けたECSは、コンテナ定義内で指定されたイメージを参照し、Fargateに対してデプロイを指示する。
+指示を受けたFargateは、コンテナのグループ(タスク)ごとにFirecrackerというマイクロVMを起動させ、その上でコンテナが稼働する。
 
 ## Reference
 
