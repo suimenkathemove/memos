@@ -11,3 +11,10 @@
 ## 注意点
 
 - github actionsのrust-cargo-make actionでは`makers`コマンドが使えないため、Makefile.toml内では`cargo make`コマンドを使う。
+
+## API
+
+### コマンドの定義方法
+
+- commandとargsを使う方法
+- scriptを使う方法
