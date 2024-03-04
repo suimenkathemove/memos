@@ -8,6 +8,7 @@
         - [serviceName(required)](#servicenamerequired)
         - [vpcId(required)](#vpcidrequired)
     - [Subnets](#subnets)
+      - [Subnetを分ける理由](#subnetを分ける理由)
     - [AZ](#az)
     - [CIDR](#cidr)
     - [ネットワークのクラス](#ネットワークのクラス)
@@ -44,6 +45,11 @@ VPC内からS3やECRなどのVPC外のAWSサービスにアクセスする場合
 分割したネットワーク
 
 VPCのサブネットの場合はルータが無くても互いに通信できる
+
+#### Subnetを分ける理由
+
+- セキュリティ
+  - 例えば、サービスを提供するサーバをパブリックにして、DBをプライベートにすることで、DBへの不正アクセスから保護する
 
 ### AZ
 
