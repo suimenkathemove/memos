@@ -22,3 +22,13 @@
 | 22              | SSH        |
 | 3306            | MySQL      |
 | 5432            | PostgreSQL |
+
+## CloudFormation
+
+### groupDescription
+
+required.
+
+### securityGroupIngress
+
+### securityGroupEgress
