@@ -12,7 +12,7 @@
     - [AZ](#az)
     - [CIDR](#cidr)
     - [ネットワークのクラス](#ネットワークのクラス)
-    - [routing tables](#routing-tables)
+    - [Route Tables](#route-tables)
     - [security groups](#security-groups)
 
 ## VPC, Subnets
@@ -71,9 +71,10 @@ VPCのサブネットの場合はルータが無くても互いに通信でき�
 | B      | /16 ~ /23 |
 | C      | /24 ~ /32 |
 
-### routing tables
+### Route Tables
 
-ネットワークの経路を設定するためのリソース
+ルートテーブルとは、ネットワークの経路を制御するためのリソース。
+サブネット単体でサブネット間の通信自体はできるが、ルートテーブルをサブネットに関連付けることで、サブネット間の通信をカスタマイズすることができる。
 
 作成した時点ではVPC内のリソース間の通信しか設定されていないので、public subnet - Internet間で通信ができるように設定する
 
