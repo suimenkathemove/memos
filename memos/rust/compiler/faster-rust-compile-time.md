@@ -12,6 +12,19 @@
 rustup update
 ```
 
+### コンパイルチェックにはcargo buildではなく、cargo checkを使う
+
+### remove unused dependencies
+
+```sh
+cargo install cargo-machete
+cargo machete
+```
+
+### Update Dependencies
+
+1. Run `cargo update`
+
 ## References
 
 - <https://corrode.dev/blog/tips-for-faster-rust-compile-times/>
