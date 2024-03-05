@@ -24,6 +24,7 @@ cargo machete
 ### Update Dependencies
 
 1. Run `cargo update`
+2. `cargo outdated`で、アップデート可能なcrateを表示する
 
 ## References
 
