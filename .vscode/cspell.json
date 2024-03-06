@@ -21,6 +21,7 @@
     "rustfmt",
     "rustup",
     "savepoint",
+    "sqldef",
     "suimenkathemove",
     "textlint",
     "thiserror",
