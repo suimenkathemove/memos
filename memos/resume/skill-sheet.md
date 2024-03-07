@@ -31,15 +31,13 @@
 
 ## ポートフォリオ
 
-- [typescript-sandbox](https://github.com/suimenkathemove/typescript-sandbox)
-- [rust_sandbox](https://github.com/suimenkathemove/rust_sandbox)
 - [react-sandbox](https://github.com/suimenkathemove/react-sandbox)
   - [Google Calendarライクなコンポーネント](https://github.com/suimenkathemove/react-sandbox#weeklycalendar)
   - [Markdown WYSIWYG Editor](https://github.com/suimenkathemove/react-sandbox#wasmmarkdowneditor)
 - [monorepo-sandbox](https://github.com/suimenkathemove/monorepo-sandbox)
   - Notionライクなアプリを開発中
     - [木構造をSQLで実装](https://zenn.dev/suimenkathemove/articles/sql-closure-table-for-tree)
-- [開発サーバを自動的に立ち上げるスクリプト](https://github.com/suimenkathemove/monorepo-sandbox/blob/main/dev.sh)
+    - [NotionのページツリーのようなDnDライブラリ](https://github.com/suimenkathemove/react-notion-sortable-tree)
 - [複数ディスプレイ間でマウスを移動させるスクリプト](https://github.com/suimenkathemove/dotfiles/blob/main/applescripts/move-between-displays.applescript)
 
 ## 経歴
