@@ -36,7 +36,8 @@
 - [monorepo-sandbox](https://github.com/suimenkathemove/monorepo-sandbox)
   - Notionライクなアプリを開発中
     - [木構造をSQLで実装](https://zenn.dev/suimenkathemove/articles/sql-closure-table-for-tree)
-    - [NotionのページツリーのようなDnDライブラリ](https://github.com/suimenkathemove/react-notion-sortable-tree)
+    - [react-notion-sortable-tree](https://github.com/suimenkathemove/react-notion-sortable-tree)
+    - [react-select-rectangle](https://github.com/suimenkathemove/react-select-rectangle)
 - [複数ディスプレイ間でマウスを移動させるスクリプト](https://github.com/suimenkathemove/dotfiles/blob/main/applescripts/move-between-displays.applescript)
 
 ## 経歴
