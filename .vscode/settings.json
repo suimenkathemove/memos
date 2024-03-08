@@ -23,6 +23,9 @@
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.tabSize": 2
   },
+  "[toml]": {
+    "editor.tabSize": 4
+  },
   "[dockerfile]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker",
     "editor.tabSize": 2
