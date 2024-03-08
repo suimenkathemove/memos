@@ -18,3 +18,7 @@
 
 - commandとargsを使う方法
 - scriptを使う方法
+
+### profile
+
+defaultはdevelopment
