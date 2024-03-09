@@ -19,6 +19,8 @@
 - commandとargsを使う方法
 - scriptを使う方法
 
+引数を受け取りたい場合は`${@}`を使う。
+
 ### profile
 
 defaultはdevelopment
