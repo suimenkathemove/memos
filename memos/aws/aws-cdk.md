@@ -25,7 +25,9 @@ cdk destroy
 
 1. cdk init
 2. migrate to pnpm
-3. exclude cdk in tsconfig, linter, formatter, test
+3. add tsconfig, linter, formatter
+   1. exclude cdk
 4. delete test
-5. delete README
-6. add tsconfig, linter, formatter
+5. fix README
+6. .vscode
+7. .github
