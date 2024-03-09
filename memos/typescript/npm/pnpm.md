@@ -12,11 +12,13 @@ pnpm install --no-frozen-lockfile
 npm_config_target_arch=x64 pnpm install
 ```
 
-## Migrate from yarn
+## Migrate to pnpm
 
 ```shell
 rm -rf node_modules
 pnpm import
+# delete lockfile
+rm package-lock.json
 rm yarn.lock
 pnpm i
 ```
