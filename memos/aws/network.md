@@ -6,6 +6,7 @@
   - [Subnets](#subnets)
   - [Internet Gateway](#internet-gateway)
   - [Route Tables](#route-tables)
+    - [default gatewayの設定](#default-gatewayの設定)
   - [security groups](#security-groups)
   - [VPC Endpoint](#vpc-endpoint)
     - [serviceName(required)](#servicenamerequired)
@@ -56,7 +57,24 @@ VPCのサブネットの場合はルータが無くても互いに通信でき�
 
 VPC内には、内部的にサブネットやIGW間にルータがある。
 
-作成した時点ではVPC内のリソース間の通信しか設定されていないので、public subnet - Internet間で通信ができるように設定する。
+### default gatewayの設定
+
+VPCの作成時にデフォルトのルートテーブルが作成される。
+
+| destination | target |
+| ----------- | ------ |
+| 10.0.0.0/16 | local  |
+
+これではVPC内のリソース間の通信しかできないので、インターネットと接続するために、`10.0.0.0/16`以外はIGWに転送するという設定をする。
+具体的には、`0.0.0.0/0`はIGWに転送するという設定を追加する。
+`0.0.0.0/0`はすべてのIPアドレス範囲を示している。つまり、デフォルトの転送先として使うことができる。
+このデフォルトの転送先をdefault gatewayという。
+
+手順
+
+1. パブリックサブネット用のルートテーブルを作成する
+2. 作成したルートテーブルをパブリックサブネットに割り当てる
+3. 作成したルートテーブルに、IGWをdefault gatewayにするルートを追加する
 
 ## security groups
 
