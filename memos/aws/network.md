@@ -4,6 +4,7 @@
   - [AZ](#az)
   - [VPC](#vpc)
   - [Subnets](#subnets)
+  - [Internet Gateway](#internet-gateway)
   - [Route Tables](#route-tables)
   - [security groups](#security-groups)
   - [VPC Endpoint](#vpc-endpoint)
@@ -33,9 +34,15 @@ CIDRブロックのprefixは基本的に`/24`に設定する。
 
 VPCのサブネットの場合はルータが無くても互いに通信できる。
 
+## Internet Gateway
+
+サブネットをインターネットに接続するために使う。
+
 ## Route Tables
 
 ルートテーブルとは、ネットワークの経路を制御するためのリソース。
+ネットワークにデータを流すためにはルーティングの設定が必要である。
+
 サブネット単体でサブネット間の通信自体はできるが、ルートテーブルをサブネットに関連付けることで、サブネット間の通信をカスタマイズすることができる。
 
 作成した時点ではVPC内のリソース間の通信しか設定されていないので、public subnet - Internet間で通信ができるように設定する。
