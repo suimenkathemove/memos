@@ -1,5 +1,7 @@
 # LocalStack
 
+LocalStackは、AWSのリソースをローカルで試すことができるエミュレータ。
+
 ## Getting Started
 
 - Install LocalStack
