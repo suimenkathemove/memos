@@ -24,3 +24,7 @@
 ### profile
 
 defaultはdevelopment
+
+### dependencies
+
+依存するタスクを指定できる。
