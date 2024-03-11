@@ -3,6 +3,7 @@
 - [DDD](#ddd)
   - [Domain Objects](#domain-objects)
     - [Value Object](#value-object)
+      - [メリット](#メリット)
   - [Links](#links)
 
 ## Domain Objects
@@ -13,6 +14,11 @@
 ### Value Object
 
 idは利用するケースが多いので、すべてvalue objectにする(find_by_idの引数など)。
+
+#### メリット
+
+- 意図を明確に表現できる
+- value objectの中にルールを閉じ込めることでカプセル化ができる
 
 ## Links
 
