@@ -1,13 +1,18 @@
 # DDD
 
 - [DDD](#ddd)
-  - [Components](#components)
+  - [Domain Objects](#domain-objects)
+    - [Value Object](#value-object)
   - [Links](#links)
 
-## Components
+## Domain Objects
 
 - [value object](./value-object.md)
 - repository
+
+### Value Object
+
+idは利用するケースが多いので、すべてvalue objectにする(find_by_idの引数など)。
 
 ## Links
 
