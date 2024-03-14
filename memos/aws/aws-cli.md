@@ -4,7 +4,7 @@
   - [Command](#command)
     - [ACCOUNT IDを取得する](#account-idを取得する)
     - [Regionを取得する](#regionを取得する)
-  - [Docker](#docker)
+  - [参考](#参考)
 
 ## Command
 
@@ -20,7 +20,6 @@ aws sts get-caller-identity --query "Account" --output text
 aws configure get region
 ```
 
-## Docker
+## 参考
 
-- <https://github.com/suimenkathemove/docker-sandbox/tree/main/aws-cli>
-- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure/cloud_formation>
+- <https://github.com/suimenkathemove/aws-sandbox/tree/main/aws-cli>
