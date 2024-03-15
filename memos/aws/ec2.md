@@ -5,6 +5,7 @@
     - [AMI](#ami)
       - [Amazon Linux](#amazon-linux)
     - [インスタンスタイプ](#インスタンスタイプ)
+    - [associatePublicIpAddress](#associatepublicipaddress)
   - [キーペア](#キーペア)
 
 インスタンスには、サブネットで利用可能なプライベートIPアドレスを割り当てる。
@@ -26,6 +27,10 @@ Red Hat Enterprise LinuxをベースとしたAmazon Linux 2と、Fedoraをベー
 仮想マシンのスペック。
 
 - t2.micro
+
+### associatePublicIpAddress
+
+起動のたびにランダムなIPアドレスを割り当てる。
 
 ## キーペア
 
