@@ -7,6 +7,13 @@
   - [Troubleshooting](#troubleshooting)
     - [com.docker.backend cannot start](#comdockerbackend-cannot-start)
 
+Dockerには以下の4つのリソースがある。
+
+- Image
+- Container
+- Volume
+- Network
+
 ## exec
 
 ```shell
