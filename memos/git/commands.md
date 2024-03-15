@@ -9,6 +9,7 @@
   - [log](#log)
     - [options](#options-1)
       - [pretty=format](#prettyformat)
+  - [delete merged branches on remote(WIP)](#delete-merged-branches-on-remotewip)
 
 ## checkout
 
@@ -53,3 +54,14 @@ git log --pretty=format:"%s" --author="suimenkathemove" -- src
 | format | description        |
 | ------ | ------------------ |
 | %s     | コミットメッセージ |
+
+## delete merged branches on remote(WIP)
+
+自分がマージしたPRのブランチをローカルとリモートで削除する。
+
+```sh
+# マージ済みのリモートブランチを表示する
+git branch --remotes --merged
+
+gh pr list --state closed
+```
