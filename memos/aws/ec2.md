@@ -49,7 +49,21 @@ Red Hat Enterprise LinuxをベースとしたAmazon Linux 2と、Fedoraをベー
 ### キーペアを作成し、紐付ける
 
 ```sh
+# キーペアを作成する
 aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
+```
+
+```ts
+// キーペアをインスタンスに紐付ける
+new CfnInstance(this, instanceId, {
+  // キーペア名を指定する
+  keyName: "MyKeyPair",
+});
+```
+
+```sh
+# インスタンスにログインする
+ssh -i MyKeyPair.pem ec2-user@x.x.x.x
 ```
 
 ## ステータスチェック

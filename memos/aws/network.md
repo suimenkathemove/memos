@@ -10,6 +10,7 @@
   - [security groups](#security-groups)
   - [VPC Endpoint](#vpc-endpoint)
     - [serviceName(required)](#servicenamerequired)
+  - [Elastic IP](#elastic-ip)
 
 ## AZ
 
@@ -92,3 +93,7 @@ VPC内からS3やECRなどのVPC外のAWSサービスにアクセスする場合
 - ゲートウェイ型
   - `com.amazonaws.[region].s3`
     - Dockerイメージの取得に利用される
+
+## Elastic IP
+
+パブリックIPアドレスを固定化する。
