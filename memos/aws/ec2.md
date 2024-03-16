@@ -7,6 +7,9 @@
     - [インスタンスタイプ](#インスタンスタイプ)
     - [associatePublicIpAddress](#associatepublicipaddress)
   - [キーペア](#キーペア)
+    - [キーペアを作成し、紐付ける](#キーペアを作成し紐付ける)
+  - [ステータスチェック](#ステータスチェック)
+  - [課金](#課金)
 
 インスタンスには、サブネットで利用可能なプライベートIPアドレスを割り当てる。
 パブリックサーバの場合は、パブリックIPアドレスも割り当てる。
@@ -42,3 +45,18 @@ Red Hat Enterprise LinuxをベースとしたAmazon Linux 2と、Fedoraをベー
 | プライベートキーファイル形式 | .pem  |
 
 1つのキーペアを複数のインスタンスに対して使うことができる。
+
+### キーペアを作成し、紐付ける
+
+```sh
+aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
+```
+
+## ステータスチェック
+
+インスタンスに対するネットワーク疎通ができているかのチェック。
+
+## 課金
+
+インスタンスは、停止している場合は課金対象から外れる。
+インスタンスが用いているストレージであるAmazon Elastic Block Store(EBS)は、容量を確保している間は課金対象になる。
