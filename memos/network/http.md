@@ -1,5 +1,19 @@
 # HTTP(Hyper Text Transfer Protocol)
 
+- [HTTP(Hyper Text Transfer Protocol)](#httphyper-text-transfer-protocol)
+  - [リクエストとレスポンス](#リクエストとレスポンス)
+    - [リクエスト(Request)](#リクエストrequest)
+      - [リクエストライン(Request Line)](#リクエストラインrequest-line)
+        - [HTTPメソッド, HTTP Methods](#httpメソッド-http-methods)
+        - [HTTP](#http)
+      - [ヘッダー(Header)](#ヘッダーheader)
+      - [ボディ(Body)](#ボディbody)
+    - [レスポンス(Response)](#レスポンスresponse)
+      - [ステータスライン(Status Line)](#ステータスラインstatus-line)
+        - [HTTPステータスコード, HTTP Status Code](#httpステータスコード-http-status-code)
+      - [ヘッダー(Header)](#ヘッダーheader-1)
+      - [ボディ(Body)](#ボディbody-1)
+
 ハイパーテキスト(ハイパーリンク同士で結び付けられたテキスト)を伝送するための通信規格。
 WebブラウザとWebサーバ間は、HTTPというプロトコルを使って通信している。
 
@@ -32,6 +46,13 @@ HTTPメソッドとHTTPのバージョン。
 | TRACE   |                                                |
 | CONNECT |                                                |
 
+##### HTTP
+
+`HTTP/1.0`, `HTTP/1.1`, `HTTP/2`がある。
+
+1系は、1つのコンテンツをやりとりする度に接続し直す。
+2は、1つの接続で複数のコンテンツを並列してやりとりする方式。
+
 #### ヘッダー(Header)
 
 リクエストの追加情報。
@@ -43,6 +64,16 @@ HTTPメソッドとHTTPのバージョン。
 | Language   | 対応言語                  |
 | Cookie     | Cookieの情報              |
 | Referer    | 直前に見ていたページのURL |
+
+HTTP/2における擬似ヘッダーは、HTTP/1.1におけるリクエストラインやステータスラインなどに記述されていた情報で、`:`から始まる。
+
+| 擬似ヘッダー | 対応するHTTP/1.1の仕様            |
+| ------------ | --------------------------------- |
+| :authority   | Host                              |
+| :method      | HTTP Methods                      |
+| :path        | リクエストラインのパス名          |
+| :scheme      | リクエストのスキーム(http, https) |
+| :status      | ステータスライン                  |
 
 #### ボディ(Body)
 
