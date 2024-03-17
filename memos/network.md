@@ -170,4 +170,5 @@ nslookupや、詳細に確認できる新しいコマンドdigを使う。
 
 ```sh
 nslookup <hostname>
+nslookup <ip address>
 ```
