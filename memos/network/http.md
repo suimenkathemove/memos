@@ -14,12 +14,21 @@ HTTPはクライアント・サーバ型のアーキテクチャである。
 
 `GET / HTTP/1.1`
 
-##### HTTP Methods
+##### HTTPメソッド, HTTP Methods
 
-| method | description |
-| ------ | ----------- |
-| GET    |             |
-| POST   |             |
+リソースに対するコマンド。
+
+| method  | description                                    |
+| ------- | ---------------------------------------------- |
+| GET     | リソースの取得                                 |
+| POST    | リソースをボディ部に入れて送信する             |
+| HEAD    | リソースのヘッダー情報だけ取得する             |
+| PUT     | リソースを更新する                             |
+| PATCH   |                                                |
+| DELETE  | リソースを削除する                             |
+| OPTIONS | サーバがサポートしているHTTPメソッドを取得する |
+| TRACE   |                                                |
+| CONNECT |                                                |
 
 #### ヘッダー(Header)
 
