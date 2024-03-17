@@ -7,6 +7,7 @@
         - [HTTPメソッド, HTTP Methods](#httpメソッド-http-methods)
         - [HTTP](#http)
       - [ヘッダー(Header)](#ヘッダーheader)
+        - [HTTP/2 擬似ヘッダー](#http2-擬似ヘッダー)
       - [ボディ(Body)](#ボディbody)
     - [レスポンス(Response)](#レスポンスresponse)
       - [ステータスライン(Status Line)](#ステータスラインstatus-line)
@@ -64,6 +65,8 @@ HTTPメソッドとHTTPのバージョン。
 | Language   | 対応言語                  |
 | Cookie     | Cookieの情報              |
 | Referer    | 直前に見ていたページのURL |
+
+##### HTTP/2 擬似ヘッダー
 
 HTTP/2における擬似ヘッダーは、HTTP/1.1におけるリクエストラインやステータスラインなどに記述されていた情報で、`:`から始まる。
 
