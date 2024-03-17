@@ -12,6 +12,8 @@ HTTPはクライアント・サーバ型のアーキテクチャである。
 
 #### リクエストライン(Request Line)
 
+HTTPメソッドとHTTPのバージョン。
+
 `GET / HTTP/1.1`
 
 ##### HTTPメソッド, HTTP Methods
@@ -50,6 +52,8 @@ POSTメソッドやPUTメソッドを利用してサーバにデータを送信�
 ### レスポンス(Response)
 
 #### ステータスライン(Status Line)
+
+HTTPのバージョンとHTTPステータスコード。
 
 `HTTP/1.1 200 OK`
 
