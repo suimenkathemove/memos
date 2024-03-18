@@ -13,6 +13,10 @@
       - [ステータスライン(Status Line)](#ステータスラインstatus-line)
         - [HTTPステータスコード, HTTP Status Code](#httpステータスコード-http-status-code)
       - [ヘッダー(Header)](#ヘッダーheader-1)
+        - [Content-Type](#content-type)
+        - [Content-Length](#content-length)
+        - [Date](#date)
+        - [Set-cookie](#set-cookie)
       - [ボディ(Body)](#ボディbody-1)
 
 ハイパーテキスト(ハイパーリンク同士で結び付けられたテキスト)を伝送するための通信規格。
@@ -113,10 +117,25 @@ HTTPのバージョンとHTTPステータスコード。
 
 レスポンスの追加情報。
 
-| key            | description        |
-| -------------- | ------------------ |
-| Content-Type   | ボディの種類を示す |
-| Content-Length | ボディの長さを示す |
+##### Content-Type
+
+ボディの種類を示す。
+MIME typeに追加の情報を加えたものを指定する。
+
+ApacheなどのWebサーバは、静的なコンテンツを返すとき、そのファイルの拡張子によって適切なContent-Typeを返すようになっている。
+
+##### Content-Length
+
+ボディの長さを示す。
+
+##### Date
+
+コンテンツの日付を示す。
+
+##### Set-cookie
+
+Cookieを設定する。
+レスポンスヘッダーに`Set-cookie`が付いていた場合、次回同じサイトにアクセスするときにリクエストヘッダーに`cookie`が付く。
 
 #### ボディ(Body)
 
