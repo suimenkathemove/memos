@@ -1,7 +1,8 @@
 # Network
 
 - [Network](#network)
-  - [AZ](#az)
+  - [リージョン(region)](#リージョンregion)
+  - [アベイラビリティゾーン(Availability Zone, AZ)](#アベイラビリティゾーンavailability-zone-az)
   - [VPC](#vpc)
   - [Subnets](#subnets)
   - [Internet Gateway](#internet-gateway)
@@ -12,9 +13,12 @@
     - [serviceName(required)](#servicenamerequired)
   - [Elastic IP](#elastic-ip)
 
-## AZ
+## リージョン(region)
 
-リージョン内で独立したデータセンター。
+## アベイラビリティゾーン(Availability Zone, AZ)
+
+リージョン内のデータセンターをグループ化したもの。
+サブネットは、別々のavailability zoneにあっても通信はできるが、距離による遅延が増加したり、通信費用が大きくなる可能性がある。
 
 ## VPC
 
