@@ -13,8 +13,16 @@ ping <宛先ホスト名 or 宛先IPアドレス>
 
 ## 仕組み
 
-pingコマンドは、ICMP(Internet Control Message Protocol)というプロトコルを用いており、これはメッセージの通知などに利用されている。
-
 pingコマンドを実行すると、送信先のホストに対してICMP Echo Requestというパケットを送信する。
 それを受け取った送信先のホストは送信元のホストに対してICMP Echo Replyというパケットを返信する。
 pingコマンドは、このやりとりから疎通を確認したり、通信を計測する。
+
+## ICMP
+
+pingコマンドは、ICMP(Internet Control Message Protocol)というプロトコルを用いており、これはメッセージの通知などに利用されている。
+
+ICMPは、TCP/IPモデルの中でインターネット層に当たる。
+
+ポート番号を持たない。
+
+セキュリティグループでICMPを通す設定を明示的にしないと、ICMPのパケットは通過できない。
