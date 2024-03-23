@@ -4,6 +4,7 @@
   - [services](#services)
     - [image](#image)
     - [container\_name](#container_name)
+    - [command](#command)
 
 ## services
 
@@ -14,3 +15,7 @@
 ### container_name
 
 コンテナ名を付ける
+
+### command
+
+docker compose upコマンドでcommandを指定することはできないので、環境変数で指定する。
