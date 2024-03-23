@@ -167,12 +167,3 @@ DNS名、ホスト名、DNSホスト名とも呼ばれる。
 ### DNS
 
 DNSサーバがドメイン名をIPアドレスに変換する。
-
-#### DNSサーバの動きを確認する
-
-nslookupや、詳細に確認できる新しいコマンドdigを使う。
-
-```sh
-nslookup <hostname>
-nslookup <ip address>
-```
