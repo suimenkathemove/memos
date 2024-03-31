@@ -5,6 +5,7 @@
     "automigrate",
     "clippy",
     "codelldb",
+    "devcontainer",
     "fargate",
     "flexbox",
     "icann",

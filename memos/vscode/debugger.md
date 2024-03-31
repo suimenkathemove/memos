@@ -6,6 +6,6 @@ rust-analyzerを使うことで、Rustを、debuggerを使ってデバッグす�
 
 - Install CodeLLDB VSCode Extension
 
-## References
+## 参考
 
-- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/.vscode/launch.json>
+- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/docs/backend/vscode-debugger.md>
