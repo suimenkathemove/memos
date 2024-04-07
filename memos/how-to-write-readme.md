@@ -11,4 +11,4 @@
 
 - <https://github.com/chakra-ui/chakra-ui>
 - <https://github.com/suimenkathemove/react-sandbox/blob/main/README.md>
-- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/README.md>
+- <https://github.com/suimenkathemove/notion-clone/blob/main/README.md>

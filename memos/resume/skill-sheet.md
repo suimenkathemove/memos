@@ -33,7 +33,7 @@
 - [react-sandbox](https://github.com/suimenkathemove/react-sandbox)
   - [Google Calendarライクなコンポーネント](https://github.com/suimenkathemove/react-sandbox#weeklycalendar)
   - [Markdown WYSIWYG Editor](https://github.com/suimenkathemove/react-sandbox#wasmmarkdowneditor)
-- [monorepo-sandbox](https://github.com/suimenkathemove/monorepo-sandbox)
+- [notion-clone](https://github.com/suimenkathemove/notion-clone)
   - Notionライクなアプリを開発中
     - [木構造をSQLで実装](https://zenn.dev/suimenkathemove/articles/sql-closure-table-for-tree)
     - [react-notion-sortable-tree](https://github.com/suimenkathemove/react-notion-sortable-tree)

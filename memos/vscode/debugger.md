@@ -8,4 +8,4 @@ rust-analyzerを使うことで、Rustを、debuggerを使ってデバッグす�
 
 ## 参考
 
-- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/docs/backend/vscode-debugger.md>
+- <https://github.com/suimenkathemove/notion-clone/blob/main/docs/backend/vscode-debugger.md>

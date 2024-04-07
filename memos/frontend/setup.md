@@ -7,7 +7,7 @@
 ## repositories
 
 - <https://github.com/suimenkathemove/react-sandbox>
-- <https://github.com/suimenkathemove/monorepo-sandbox>
+- <https://github.com/suimenkathemove/notion-clone>
 
 ## List
 

@@ -5,4 +5,4 @@
 
 ## References
 
-- <https://github.com/suimenkathemove/monorepo-sandbox/commit/701e2c50a6c2a289511d90b2cd3dd2faf84cccb9>
+- <https://github.com/suimenkathemove/notion-clone/commit/701e2c50a6c2a289511d90b2cd3dd2faf84cccb9>

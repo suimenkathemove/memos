@@ -23,5 +23,5 @@ localstack status services
 
 ## References
 
-- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure/cdk/localstack-sandbox>
+- <https://github.com/suimenkathemove/notion-clone/tree/main/infrastructure/cdk/localstack-sandbox>
 - <https://qiita.com/yasomaru/items/0ffeba00feb495ee38dd>

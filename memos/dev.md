@@ -11,8 +11,8 @@
 `dev.sh`
 
 [dev.sh](../../memos/dev.sh)
-[source](https://github.com/suimenkathemove/monorepo-sandbox/blob/main/dev.sh)
+[source](https://github.com/suimenkathemove/notion-clone/blob/main/dev.sh)
 
 `.vscode/settings.json`
 
-[source](https://github.com/suimenkathemove/monorepo-sandbox/commit/1b99651b36170c5a5d4035043dd7a2935c1bc774)
+[source](https://github.com/suimenkathemove/notion-clone/commit/1b99651b36170c5a5d4035043dd7a2935c1bc774)

@@ -37,4 +37,4 @@ cdk destroy
 ## 参考
 
 - <https://github.com/suimenkathemove/aws-sandbox/tree/main/cdk-sandbox>
-- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure/cdk/notion-clone>
+- <https://github.com/suimenkathemove/notion-clone/tree/main/infrastructure/cdk/notion-clone>

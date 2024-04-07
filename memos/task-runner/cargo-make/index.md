@@ -2,7 +2,7 @@
 
 ## References
 
-- <https://github.com/suimenkathemove/monorepo-sandbox/blob/main/backend/Makefile.toml>
+- <https://github.com/suimenkathemove/notion-clone/blob/main/backend/Makefile.toml>
 
 ## Features
 

@@ -80,4 +80,4 @@ ECRにコンテナイメージをpushした後、そのイメージをデプロ�
 
 ## Reference
 
-- <https://github.com/suimenkathemove/monorepo-sandbox/tree/main/infrastructure>
+- <https://github.com/suimenkathemove/notion-clone/tree/main/infrastructure>

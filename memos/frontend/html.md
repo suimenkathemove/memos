@@ -15,7 +15,7 @@
 ```
 
 入力値にpropsやstateを使うと、再レンダリングする度にキャレットの位置が飛んでしまう。
-入力値を設定するには、Uncontrolled Componentにしてrefを使って設定する。<https://github.com/suimenkathemove/monorepo-sandbox/blob/main/frontend/src/components/notion/domains/page-content/index.tsx>
+入力値を設定するには、Uncontrolled Componentにしてrefを使って設定する。<https://github.com/suimenkathemove/notion-clone/blob/main/frontend/src/components/notion/domains/page-content/index.tsx>
 
 Reactで以下のエラーが出る場合は、
 
