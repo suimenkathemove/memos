@@ -8,7 +8,6 @@
   - [Internet Gateway](#internet-gateway)
   - [Route Tables](#route-tables)
     - [default gatewayの設定](#default-gatewayの設定)
-  - [セキュリティグループ(security groups)](#セキュリティグループsecurity-groups)
   - [VPC Endpoint](#vpc-endpoint)
     - [serviceName(required)](#servicenamerequired)
   - [Elastic IP](#elastic-ip)
@@ -80,8 +79,6 @@ VPCの作成時にデフォルトのルートテーブルが作成される。
 1. パブリックサブネット用のルートテーブルを作成する
 2. 作成したルートテーブルをパブリックサブネットに割り当てる
 3. 作成したルートテーブルに、IGWをdefault gatewayにするルートを追加する
-
-## セキュリティグループ(security groups)
 
 ## VPC Endpoint
 
