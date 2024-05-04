@@ -1,24 +1,36 @@
 # DDD
 
 - [DDD](#ddd)
-  - [Domain Objects](#domain-objects)
-    - [Value Object](#value-object)
-      - [メリット](#メリット)
+  - [Value Object](#value-object)
+    - [メリット](#メリット)
+  - [Entity](#entity)
+  - [Repository](#repository)
+  - [Domain Service](#domain-service)
+  - [Application Service](#application-service)
+  - [Controller](#controller)
+  - [DI](#di)
   - [Links](#links)
 
-## Domain Objects
-
-- [value object](./value-object.md)
-- repository
-
-### Value Object
+## Value Object
 
 idは利用するケースが多いので、すべてvalue objectにする(find_by_idの引数など)。
 
-#### メリット
+### メリット
 
 - 意図を明確に表現できる
 - value objectの中にルールを閉じ込めることでカプセル化ができる
+
+## Entity
+
+## Repository
+
+## Domain Service
+
+## Application Service
+
+## Controller
+
+## DI
 
 ## Links
 
