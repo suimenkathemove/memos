@@ -4,8 +4,8 @@
   - [Value Object](#value-object)
     - [メリット](#メリット)
   - [Entity](#entity)
-  - [Repository](#repository)
   - [Domain Service](#domain-service)
+  - [Repository](#repository)
   - [Application Service](#application-service)
   - [Controller](#controller)
   - [DI](#di)
@@ -22,11 +22,15 @@ idは利用するケースが多いので、すべてvalue objectにする(find_
 
 ## Entity
 
-## Repository
-
 ## Domain Service
 
+## Repository
+
+Repository層。Infrastructure層。
+
 ## Application Service
+
+UseCase層。
 
 ## Controller
 
