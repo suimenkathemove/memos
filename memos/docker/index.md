@@ -2,7 +2,8 @@
 
 - [Docker](#docker)
   - [exec](#exec)
-  - [Stop all container](#stop-all-container)
+  - [Stop all containers](#stop-all-containers)
+  - [Delete all volumes](#delete-all-volumes)
   - [image push](#image-push)
   - [Troubleshooting](#troubleshooting)
     - [com.docker.backend cannot start](#comdockerbackend-cannot-start)
@@ -16,14 +17,20 @@ Dockerには以下の4つのリソースがある。
 
 ## exec
 
-```shell
+```sh
 docker exec -it CONTAINER bash
 ```
 
-## Stop all container
+## Stop all containers
 
-```shell
-docker stop $(docker ps -aq)
+```sh
+docker stop $(docker ps -qa)
+```
+
+## Delete all volumes
+
+```sh
+docker volume rm $(docker volume ls -q)
 ```
 
 ## image push
