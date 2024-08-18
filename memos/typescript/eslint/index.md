@@ -6,6 +6,8 @@
   - [Configuring](#configuring)
     - [ignoring](#ignoring)
       - [default ignoring](#default-ignoring)
+  - [migrate to flat config](#migrate-to-flat-config)
+    - [手順](#手順)
 
 ## Overview
 
@@ -38,3 +40,17 @@ ESLint本体以外のエコシステムのパッケージは主に3つ
 
 - `node_modules/`
 - dot-files, dot-directories
+
+## migrate to flat config
+
+<https://eslint.org/docs/latest/use/configure/migration-guide>
+
+### 手順
+
+既存のファイルを変換する
+
+<https://eslint.org/docs/latest/use/configure/migration-guide#migrate-your-config-file>
+
+typescript-eslintを使う場合は`tseslint.config`を使う
+
+<https://typescript-eslint.io/getting-started>
