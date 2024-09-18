@@ -1,15 +1,9 @@
 {
-  "css.validate": false,
   "editor.formatOnSave": true,
-  "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "css.validate": false,
   "scss.validate": false,
-  "terminal.integrated.profiles.osx": {
-    "dev": {
-      "path": "${workspaceFolder}/dev.sh"
-    }
-  },
-  "terminal.integrated.defaultProfile.osx": "dev",
   "typescript.tsdk": "./node_modules/typescript/lib",
   "[markdown]": {
     "editor.codeActionsOnSave": {
@@ -53,5 +47,11 @@
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
     "editor.tabSize": 2
   },
-  "eslint.workingDirectories": [{ "mode": "auto" }]
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "terminal.integrated.profiles.osx": {
+    "dev": {
+      "path": "${workspaceFolder}/dev.sh"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "dev"
 }
