@@ -16,7 +16,7 @@
     "metavariables",
     "nextest",
     "nslookup",
-    "oapi",
+    "oapi-codegen",
     "onpre",
     "outdegree",
     "pipenv",
