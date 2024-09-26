@@ -26,7 +26,9 @@ idは利用するケースが多いので、すべてvalue objectにする(find_
 
 ## Repository
 
-Repository層。Infrastructure層。
+Repository層といったり、Infrastructure層といったりする。
+
+mutationは、createとupdateを分ける。saveでまとめない。updateのinputの属性はオプショナルの場合があるから。
 
 ## Application Service
 
