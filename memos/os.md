@@ -6,4 +6,4 @@
 
 ゴミ箱を空にしてみる。
 
-Dockerを使っている場合はImageやContainerを削除してみる。
+Dockerを使っている場合はImageやContainerやVolumeを削除してみる。
