@@ -28,6 +28,7 @@
     "rustup",
     "savepoint",
     "sqldef",
+    "sqlx",
     "suimenkathemove",
     "textlint",
     "thiserror",
