@@ -2,4 +2,4 @@
 
 ## Troubleshooting
 
-### git-credential-osxkeychainがキーチェーンに含まれるキー"github.com"へアクセスしようとしています
+### git-credential-osxkeychainがキーチェーン内の"github.com"に保存されている機密情報を使用しようとしています
