@@ -20,5 +20,20 @@ parameters:
     description: xxx
     schema:
       type: integer
+      default: xxx
     required: true
 ```
+
+#### query parameter
+
+```yaml
+parameters:
+  - in: query
+    name: xxx
+    schema:
+      type: integer
+      default: xxx
+    required: true
+```
+
+### responses
