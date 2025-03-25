@@ -15,3 +15,5 @@ Japan Standard Time。日本標準時。
 ## ISO 8601
 
 この形式でbackendから返すのが最も一般的
+
+`2000-01-01T00:00:00Z`
