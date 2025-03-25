@@ -2,13 +2,16 @@
 
 ## SELECT
 
-Select
-Get
+Getはstruct
+Selectはslice
+
 Queryx
 NamedQuery
 QueryRow
 
 ## CREATE, UPDATE, DELETE
+
+Exec
 
 NamedExec
 NamedQuery
