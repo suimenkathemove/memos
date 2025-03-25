@@ -1,0 +1,4 @@
+# openapi swagger
+
+- summary
+- description
