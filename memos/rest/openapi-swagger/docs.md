@@ -2,12 +2,27 @@
 
 ## properties
 
-| key         | description      |
+| key         | memo             |
 | ----------- | ---------------- |
 | summary     |                  |
 | description |                  |
-| operationId |                  |
+| operationId | camelCase        |
 | tags        | グループ化できる |
+
+### security
+
+#### BasicAuth
+
+```yml
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+
+security:
+  - BasicAuth: []
+```
 
 ### parameters
 
