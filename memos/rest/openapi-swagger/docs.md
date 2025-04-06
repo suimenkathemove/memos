@@ -26,7 +26,7 @@ parameters:
 
 #### query parameter
 
-```yaml
+```yml
 parameters:
   - in: query
     name: xxx
@@ -36,4 +36,12 @@ parameters:
     required: true
 ```
 
+#### request body
+
+```yml
+```
+
 ### responses
+
+```yml
+```
