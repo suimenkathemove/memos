@@ -3,6 +3,7 @@
 - [Docker](#docker)
   - [exec](#exec)
   - [Stop all containers](#stop-all-containers)
+  - [Delete all images](#delete-all-images)
   - [Delete all volumes](#delete-all-volumes)
   - [image push](#image-push)
   - [Troubleshooting](#troubleshooting)
@@ -28,6 +29,12 @@ docker compose run <container name> bash
 
 ```sh
 docker stop $(docker ps -qa)
+```
+
+## Delete all images
+
+```sh
+docker image prune -a -f
 ```
 
 ## Delete all volumes
