@@ -4,6 +4,7 @@
   - [toolchain](#toolchain)
   - [target](#target)
   - [Show installed toolchains](#show-installed-toolchains)
+  - [component](#component)
 
 ## toolchain
 
@@ -22,3 +23,10 @@ rustup target add <target>
 ```sh
 rustup show
 ```
+
+## component
+
+Rustの標準toolchainに含まれるツールをインストールする際は、`rustup component add`を使ってインストールする。
+clippy, rustfmtなど
+
+削除は`rustup component remove`
