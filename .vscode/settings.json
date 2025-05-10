@@ -50,7 +50,7 @@
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "terminal.integrated.profiles.osx": {
     "dev": {
-      "path": "${workspaceFolder}/dev.sh"
+      // "path": "${workspaceFolder}/dev.sh"
     }
   },
   "terminal.integrated.defaultProfile.osx": "dev"
