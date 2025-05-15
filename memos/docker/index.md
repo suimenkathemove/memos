@@ -19,10 +19,10 @@ Dockerには以下の4つのリソースがある。
 ## exec
 
 ```sh
-docker exec -it CONTAINER bash
+docker exec -it CONTAINER sh
 
 # docker composeを使っている場合は以下のコマンドで代用できる
-docker compose run <container name> bash
+docker compose run <container name> sh
 ```
 
 ## Stop all containers
