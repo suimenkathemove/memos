@@ -14,3 +14,14 @@ gcloud auth list
 ```sh
 gcloud projects create $(PROJECT_ID)
 ```
+
+## alpineにgcloud cliをインストールするDockerfile
+
+```Dockerfile
+RUN apk add --no-cache \
+  bash \
+  curl \
+  python3
+RUN curl -sSL https://sdk.cloud.google.com | bash
+ENV PATH $PATH:/root/google-cloud-sdk/bin
+```
