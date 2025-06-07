@@ -10,6 +10,7 @@
     - [ADD](#add-)
   - [TRUNCATE TABLE](#truncate-table)
   - [IF EXISTS, IF NOT EXISTS](#if-exists-if-not-exists)
+  - [COMMENT](#comment)
 
 ## CREATE TABLE
 
@@ -93,4 +94,11 @@ DELETE文は記録を残すため低速だが、TRUNCATE文は記録を残さな
 CREATE TABLE IF NOT EXISTS <table name>
 
 DROP TABLE IF EXISTS <table name>
+```
+
+## COMMENT
+
+```sql
+COMMENT ON TABLE <table name> IS '<comment>';
+COMMENT ON COLUMN <table name>.<column name> IS '<comment>';
 ```
