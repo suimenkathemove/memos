@@ -1,11 +1,5 @@
 # rustup
 
-- [rustup](#rustup)
-  - [toolchain](#toolchain)
-  - [target](#target)
-  - [Show installed toolchains](#show-installed-toolchains)
-  - [component](#component)
-
 ## toolchain
 
 A single installation of the Rust compiler.
@@ -30,3 +24,11 @@ Rustの標準toolchainに含まれるツールをインストールする際は�
 clippy, rustfmtなど
 
 削除は`rustup component remove`
+
+## rustup update
+
+cargoなどをupgradeする
+
+```sh
+rustup update
+```

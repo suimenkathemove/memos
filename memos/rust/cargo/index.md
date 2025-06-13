@@ -1,19 +1,10 @@
 # Cargo
 
-- [Cargo](#cargo)
-  - [Creating a New Package](#creating-a-new-package)
-    - [options](#options)
-  - [Install](#install)
-    - [options](#options-1)
-  - [cargo update](#cargo-update)
-
 ## Creating a New Package
 
-```shell
+```sh
 cargo new PACKAGE
 ```
-
-### options
 
 | option | description                          |
 | ------ | ------------------------------------ |
@@ -22,11 +13,9 @@ cargo new PACKAGE
 
 ## Install
 
-```shell
+```sh
 cargo install [options] PACKAGE
 ```
-
-### options
 
 | option | description |
 | ------ | ----------- |
@@ -38,4 +27,10 @@ Update dependencies as recorded in the local lock file.
 
 ```sh
 cargo update
+```
+
+## cargo自体のupgrade
+
+```sh
+rustup update
 ```
