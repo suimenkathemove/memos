@@ -21,7 +21,7 @@ volta install <tool[@version]>
 ## Delete package
 
 ```sh
-rm -rf /path/to/.volta/tools/image/[package]/[version]
+rm -rf ~/.volta/tools/image/[package]/[version]
 ```
 
 ## Pin
