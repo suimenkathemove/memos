@@ -55,4 +55,6 @@ docker image push NAME[:TAG]
 
 ```sh
 rm -rf ~/.docker
+# TODO: これも必要か検証する
+rm -rf ~/Library/Containers/com.docker.docker
 ```
