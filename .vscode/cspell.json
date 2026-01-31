@@ -36,6 +36,7 @@
     "turbopack",
     "urql",
     "vitepress",
-    "webextension"
+    "webextension",
+    "worktree",
   ]
 }
