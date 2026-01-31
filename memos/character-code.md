@@ -5,3 +5,10 @@
 ## ASCII
 
 ## Unicode
+
+### 正規化形式 normalization form
+
+- NFC
+- NFD
+- NFKC
+- NFKD
