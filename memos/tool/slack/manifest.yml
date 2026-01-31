@@ -1,0 +1,41 @@
+display_information:
+  name: Slack MCP
+  description: Slack MCP server
+
+oauth_config:
+  scopes:
+    bot:
+      # チャネル関連（パブリック）
+      - channels:history
+      - channels:read
+      # プライベートチャネル
+      - groups:history
+      - groups:read
+      # DM
+      - im:history
+      - im:read
+      # グループDM
+      - mpim:history
+      - mpim:read
+      # ユーザー情報
+      - users:read
+      - users.profile:read
+      # リアクション
+      - reactions:read
+      # ファイル
+      - files:read
+      # ブックマーク
+      - bookmarks:read
+      # ピン
+      - pins:read
+      # 検索
+      - search:read
+      # チーム情報
+      - team:read
+      # 絵文字
+      - emoji:read
+
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
