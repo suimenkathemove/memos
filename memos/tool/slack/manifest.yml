@@ -29,7 +29,7 @@ oauth_config:
       # ピン
       - pins:read
       # 検索
-      - search:read
+      # - search:read
       # チーム情報
       - team:read
       # 絵文字
