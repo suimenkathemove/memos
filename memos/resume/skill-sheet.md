@@ -17,7 +17,7 @@
 | -------------- | -------------------------- |
 | 言語           | TypeScript/Rust/Go         |
 | フレームワーク | React.js/Next.js/Axum/Echo |
-| DB             | PostgresQL/DynamoDB        |
+| DB             | PostgreSQL/DynamoDB        |
 | API Protocol   | REST/GraphQL               |
 
 <!-- ## 自己PR -->
@@ -60,7 +60,7 @@
 
 ### FRAIM(業務委託) 2021/07~2025/02
 
-技術スタック: TypeScript/React.js/Next.js/Rust/Axum/GraphQL/DynamoDB/PostgresQL
+技術スタック: TypeScript/React.js/Next.js/Rust/Axum/GraphQL/DynamoDB/PostgreSQL
 
 #### 契約書のオンラインエディタ[lawgue](https://lawgue.com/)の開発
 
@@ -91,7 +91,7 @@ DnDで木構造のスクリプトを作成し、そのスクリプトを実行�
 
 ### クロステックマネジメント(業務委託) 2024/09~2025/08
 
-技術スタック: TypeScript/Next.js/Go/Echo/PostgresQL
+技術スタック: TypeScript/Next.js/Go/Echo/PostgreSQL
 
 - オンボーディングタスク管理アプリのフロントエンドとバックエンドの開発
   - タスクのAPIの開発(一覧取得、作成、編集、削除)
@@ -103,7 +103,7 @@ DnDで木構造のスクリプトを作成し、そのスクリプトを実行�
 
 ### 株式会社estie(業務委託) 2025/04~現在
 
-技術スタック: TypeScript/Next.js/Rust/actix-web/PostgresQL
+技術スタック: TypeScript/Next.js/Rust/Actix Web/GraphQL/PostgreSQL
 
 - OCR機能のハイライトの座標取得の改善
 - 住所の正規化のマイグレーションスクリプト(並列処理)の作成
