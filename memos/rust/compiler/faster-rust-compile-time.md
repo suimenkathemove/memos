@@ -29,3 +29,4 @@ cargo machete
 ## References
 
 - <https://corrode.dev/blog/tips-for-faster-rust-compile-times/>
+- <https://zenn.dev/fairydevices/articles/59cd718341da58>
