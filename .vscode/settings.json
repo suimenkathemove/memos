@@ -47,11 +47,5 @@
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
     "editor.tabSize": 2
   },
-  "eslint.workingDirectories": [{ "mode": "auto" }],
-  "terminal.integrated.profiles.osx": {
-    "dev": {
-      // "path": "${workspaceFolder}/dev.sh"
-    }
-  },
-  "terminal.integrated.defaultProfile.osx": "dev"
+  "eslint.workingDirectories": [{ "mode": "auto" }]
 }
