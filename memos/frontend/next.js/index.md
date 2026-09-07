@@ -1,16 +1,14 @@
 # Next.js
 
-## API
+SSR/SSG/ISRとルーティングを備えたReactのフレームワーク。
 
-### URL系
+他の構成と比べてどうかは、[フレームワーク選定](../framework-selection.md)を参照。
 
-Dynamic Segmentを取得したい場合は`useParams`を使う。
+## Next.jsを選ぶ理由
 
-例えば、`/blog/[slug]`というURLのパスから`[slug]`を取得したい場合は、
+他のフレームワークにない、あるいは差が出る点。
 
-```tsx
-const params = useParams();
-console.log(params.slug);
-```
-
-で取得できる。
+- ISRを持つ。ページ単位でキャッシュし、時間やイベントを起点に再生成できる。
+  大量の詳細ページをCDNから配信したい場合はここが決め手になる。
+- React Server Componentsを前提に設計されている。
+  データ取得と重い依存をサーバーに置き、クライアントに送るJSを減らせる。
