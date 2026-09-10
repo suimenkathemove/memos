@@ -51,13 +51,15 @@ VS Code の Neovim 拡張からも同じ設定を読む。
 - `tpope/vim-fugitive`
   - git status
   - 左右分割の差分画面
+- `lewis6991/gitsigns.nvim`
+  - 通常のバッファで、行番号の左のサイン欄に差分の棒を出す用途だけに使う
 
 ### テーマ・アイコン
 
 - `Mofiqul/dracula.nvim` : カラースキーム
 - `DaikyXendo/nvim-material-icon` : ファイルタイプ別アイコン（Material Design Icons。nvim-web-devicons 互換）
 
-## プラグインのキーマップ
+## キーバインド
 
 - `<leader>e` : oil をカレントウィンドウで開閉
 - `-` : 親ディレクトリを oil で開く
