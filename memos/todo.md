@@ -4,3 +4,7 @@
   - WezTerm
   - NeoVim
   - Herdr
+  - Nix
+  - jujutsu
+  - Octo.nvim
+- AWS SAA
